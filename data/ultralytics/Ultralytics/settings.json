@@ -1,0 +1,21 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "D:\\roadguard-ai\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "4b76ab1c726d17164b5b8698b9e78ce07f30f6613fc07f7cc4081adf80e64109",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

@@ -1,0 +1,12 @@
+﻿# Known limitations
+
+- Collision findings are conservative image-space screening candidates. They are labeled “Possible collision — review required”; only a human review may confirm one. They are not a dedicated accident-recognition model and can miss contact or flag perspective overlap. Generic YOLO weights have no accident class.
+- The supplied apparent interaction includes an ID fragment (3 to 15); participant identity reliability is false and the candidate requires human inspection. Fragment grouping is conservative and cannot establish physical identity.
+- No held-out annotated footage or independent measurements exist. Precision, recall, false alarms per minute, duplicate rate and physical metric accuracy are Not evaluated. The development clip is not evaluation evidence.
+- Image-space mode has no physical distance, speed, acceleration, TTC, PET or clearance. TTC is time to predicted closest approach under assumptions, not collision. PET needs observed shared conflict-area occupancy.
+- Metric analysis requires a valid surveyed fixed-camera calibration. Calibration is planar, depends on user points and does not correct lens distortion or independently validate geometry. Fixed homography is not applied to moving cameras; stabilization alone does not recover physical trajectories.
+- Wrong-way, stopped-vehicle, blocked-crossing, speeding and sudden-deceleration candidate logic/configuration is covered by synthetic tests only. Queue suppression is limited context logic, not a full traffic queue classifier. Speed/deceleration remain unavailable without valid calibrated geometry and valid timing.
+- Counts depend on track continuity and may be affected by ID switches; comprehensive queue observations are incomplete. Location summaries are descriptive and are withheld where exposure is insufficient; no coordinate map/heatmap is provided without real coordinates.
+- Browser automation host was unavailable. Browser upload/review/refresh/export flow and responsive desktop/mobile layout have not been visually exercised, despite API checks and frontend syntax validation.
+- YOLOPv2 and road-damage models are not integrated because verified compatible weights, class mapping, license and inference were unavailable. Driver monitoring, helmet and red-light capabilities require dedicated inputs/models.
+- Uncertain contact is not a collision confirmation; collisions and near-misses are distinct categories. No automatic fault assignment or crash probability is produced.

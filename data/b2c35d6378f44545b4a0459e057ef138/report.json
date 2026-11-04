@@ -1,0 +1,88 @@
+{
+  "analysis_version": 4,
+  "events": [
+    {
+      "id": "41ea1b95",
+      "type": "image_space_candidate",
+      "timestamp": 3.0,
+      "start_timestamp": 2.16,
+      "peak_timestamp": 3.0,
+      "end_timestamp": 3.96,
+      "participants": [
+        1,
+        15
+      ],
+      "participant_classes": [
+        2,
+        2
+      ],
+      "participant_class_names": [
+        "car",
+        "car"
+      ],
+      "metrics": {
+        "time_to_closest_approach_s": 1.407,
+        "normalized_clearance": 0.0001,
+        "ttc_s": null,
+        "ttc_unavailable_reason": "Uncalibrated image-space screening; physical TTC unavailable",
+        "minimum_predicted_clearance_m": null,
+        "pet_s": null,
+        "pet_unavailable_reason": "Requires calibrated shared conflict-area occupancy"
+      },
+      "review": "pending",
+      "thumbnail": "/media/b2c35d6378f44545b4a0459e057ef138/41ea1b95.jpg",
+      "reason": "Image-space paths converge in this view; perspective and scale prevent physical conflict inference.",
+      "measurement_mode": "uncalibrated image-space screening only",
+      "calibration_version": null,
+      "configuration_version": "conflict-v1",
+      "measurement_quality": {
+        "track_ages_s": [
+          1.56,
+          1.56
+        ],
+        "track_gaps": [
+          0,
+          0
+        ],
+        "track_detector_confidences": {
+          "1": 0.5979520678520203,
+          "15": 0.7390617728233337
+        },
+        "reliable_identities": true,
+        "uncertainty": "Image-space geometry; no metric interpretation"
+      },
+      "end_timestamp_s": 3.96,
+      "start_timestamp_s": 2.16,
+      "clip": "/media/b2c35d6378f44545b4a0459e057ef138/41ea1b95.mp4"
+    }
+  ],
+  "frames": 538,
+  "duration": 21.48,
+  "timeline_origin_source_timestamp_s": 0.0,
+  "start_timestamp_s": 0.0,
+  "end_timestamp_s": 21.48,
+  "tracks": 23,
+  "unique_passages": null,
+  "runtime": 40.47,
+  "model": "yolo11n.pt",
+  "device": "cpu",
+  "playback": "/media/b2c35d6378f44545b4a0459e057ef138/annotated.mp4",
+  "measurement_mode": "uncalibrated image-space fallback",
+  "engine": "legacy-image-screen-v1",
+  "camera_mode": "fixed",
+  "calibration_version": null,
+  "configuration_version": "conflict-v1",
+  "observation_interval": {
+    "start": 0.0,
+    "end": 21.48,
+    "duration_s": 21.48
+  },
+  "duplicate_recording_of": null,
+  "timestamp_aligned_overlay": true,
+  "limitations": [
+    "Planar road homography; lens distortion is not corrected.",
+    "Calibration residual is not independent ground-truth validation.",
+    "PET is reported only from observed sequential occupancy in configured shared conflict areas.",
+    "Variable-frame-rate output uses presentation timestamp deltas through FFmpeg when available; otherwise an explicitly untimed CFR preview is used."
+  ]
+}

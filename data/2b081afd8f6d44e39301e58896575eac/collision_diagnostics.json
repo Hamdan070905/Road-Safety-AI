@@ -1,0 +1,4256 @@
+{
+  "camera_mode": "fixed",
+  "camera_moved": false,
+  "calibration_valid": false,
+  "engine": "legacy-image-screen-v1",
+  "collision_engine": "image-space collision screen",
+  "records": [
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        3
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        4
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        5
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        6
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        12,
+        13
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        14
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        15
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        27
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        29
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        33
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        36
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        39
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        41
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        4
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        5
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        6
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        12,
+        13
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        14
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        15
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        27
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        29
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        33
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        36
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        39
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        41
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        5
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        6
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        12,
+        13
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        14
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        15
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        27
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        29
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        33
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        36
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        39
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        41
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        6
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        12,
+        13
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        14
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        15
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        27
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        29
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        33
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        36
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        39
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        41
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        5
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        12,
+        13
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        14
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        15
+      ],
+      "interaction_interval_s": [
+        6.7,
+        6.867
+      ],
+      "overlap_observations": 15,
+      "max_box_iou": 0.548,
+      "approach_observed": false,
+      "movement_response_candidates": [],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window",
+        "No abrupt heading deflection or synchronized hard stop after interaction"
+      ]
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        27
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        29
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        33
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        36
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        39
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        41
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        14
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        15
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        27
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        29
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        33
+      ],
+      "interaction_interval_s": [
+        7.933,
+        8.067
+      ],
+      "overlap_observations": 12,
+      "max_box_iou": 0.124,
+      "approach_observed": false,
+      "movement_response_candidates": [
+        [
+          0.4199919311023894,
+          7.933333333333334,
+          {
+            "before": 0.03318924575432923,
+            "after": 0.04150803262380167,
+            "heading_change_deg": 39.52404486118387,
+            "relative_speed_change": 0.2004139040958124,
+            "changed": true
+          }
+        ],
+        [
+          0.4199919311023894,
+          7.933333333333334,
+          {
+            "before": 0.03318924575432923,
+            "after": 0.04150803262380167,
+            "heading_change_deg": 39.52404486118387,
+            "relative_speed_change": 0.2004139040958124,
+            "changed": true
+          }
+        ],
+        [
+          0.37571467012017185,
+          7.966666666666667,
+          {
+            "before": 0.03807558114935642,
+            "after": 0.03341820556636712,
+            "heading_change_deg": 45.61118009621898,
+            "relative_speed_change": 0.12231922514117748,
+            "changed": true
+          }
+        ],
+        [
+          0.37571467012017185,
+          7.966666666666667,
+          {
+            "before": 0.03807558114935642,
+            "after": 0.03341820556636712,
+            "heading_change_deg": 45.61118009621898,
+            "relative_speed_change": 0.12231922514117748,
+            "changed": true
+          }
+        ],
+        [
+          0.37571467012017185,
+          7.966666666666667,
+          {
+            "before": 0.03807558114935642,
+            "after": 0.03341820556636712,
+            "heading_change_deg": 45.61118009621898,
+            "relative_speed_change": 0.12231922514117748,
+            "changed": true
+          }
+        ],
+        [
+          0.30709587736868826,
+          8.0,
+          {
+            "before": 0.03798177745770808,
+            "after": 0.033233348890233716,
+            "heading_change_deg": 32.773910285588116,
+            "relative_speed_change": 0.12501859800430987,
+            "changed": true
+          }
+        ],
+        [
+          0.30709587736868826,
+          8.0,
+          {
+            "before": 0.03798177745770808,
+            "after": 0.033233348890233716,
+            "heading_change_deg": 32.773910285588116,
+            "relative_speed_change": 0.12501859800430987,
+            "changed": true
+          }
+        ],
+        [
+          0.30709587736868826,
+          8.0,
+          {
+            "before": 0.03798177745770808,
+            "after": 0.033233348890233716,
+            "heading_change_deg": 32.773910285588116,
+            "relative_speed_change": 0.12501859800430987,
+            "changed": true
+          }
+        ],
+        [
+          0.23344196809408208,
+          8.033333333333333,
+          {
+            "before": 0.03312292482321816,
+            "after": 0.03648016290725547,
+            "heading_change_deg": 25.454308738074246,
+            "relative_speed_change": 0.0920291417714474,
+            "changed": true
+          }
+        ],
+        [
+          0.23344196809408208,
+          8.033333333333333,
+          {
+            "before": 0.03312292482321816,
+            "after": 0.03648016290725547,
+            "heading_change_deg": 25.454308738074246,
+            "relative_speed_change": 0.0920291417714474,
+            "changed": true
+          }
+        ],
+        [
+          0.23344196809408208,
+          8.033333333333333,
+          {
+            "before": 0.03312292482321816,
+            "after": 0.03648016290725547,
+            "heading_change_deg": 25.454308738074246,
+            "relative_speed_change": 0.0920291417714474,
+            "changed": true
+          }
+        ]
+      ],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window"
+      ]
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        36
+      ],
+      "interaction_interval_s": [
+        9.067,
+        9.1
+      ],
+      "overlap_observations": 3,
+      "max_box_iou": 0.935,
+      "approach_observed": false,
+      "movement_response_candidates": [
+        [
+          1.0506363856595629,
+          9.066666666666666,
+          {
+            "before": 0.0480639503696075,
+            "after": 0.06934583562413411,
+            "heading_change_deg": 133.87346231757178,
+            "relative_speed_change": 0.30689492833971965,
+            "changed": true
+          }
+        ],
+        [
+          1.0506363856595629,
+          9.066666666666666,
+          {
+            "before": 0.0480639503696075,
+            "after": 0.06934583562413411,
+            "heading_change_deg": 133.87346231757178,
+            "relative_speed_change": 0.30689492833971965,
+            "changed": true
+          }
+        ],
+        [
+          1.0112429083805614,
+          9.1,
+          {
+            "before": 0.05292174911601305,
+            "after": 0.07028915385723047,
+            "heading_change_deg": 137.54840005007875,
+            "relative_speed_change": 0.2470851303245683,
+            "changed": true
+          }
+        ]
+      ],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window"
+      ]
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        39
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        41
+      ],
+      "interaction_interval_s": [
+        9.467,
+        9.6
+      ],
+      "overlap_observations": 12,
+      "max_box_iou": 0.511,
+      "approach_observed": false,
+      "movement_response_candidates": [
+        [
+          0.9830570825609909,
+          9.466666666666667,
+          {
+            "before": 0.07546281141146322,
+            "after": 0.018612750383609388,
+            "heading_change_deg": 41.3469121765709,
+            "relative_speed_change": 0.7533520149133748,
+            "changed": true
+          }
+        ],
+        [
+          0.9830570825609909,
+          9.466666666666667,
+          {
+            "before": 0.07546281141146322,
+            "after": 0.018612750383609388,
+            "heading_change_deg": 41.3469121765709,
+            "relative_speed_change": 0.7533520149133748,
+            "changed": true
+          }
+        ],
+        [
+          0.8986851012895326,
+          9.5,
+          {
+            "before": 0.06067145908262126,
+            "after": 0.017679324574326787,
+            "heading_change_deg": 34.21431366714,
+            "relative_speed_change": 0.7086055809165326,
+            "changed": true
+          }
+        ],
+        [
+          0.8986851012895326,
+          9.5,
+          {
+            "before": 0.06067145908262126,
+            "after": 0.017679324574326787,
+            "heading_change_deg": 34.21431366714,
+            "relative_speed_change": 0.7086055809165326,
+            "changed": true
+          }
+        ],
+        [
+          0.8986851012895326,
+          9.5,
+          {
+            "before": 0.06067145908262126,
+            "after": 0.017679324574326787,
+            "heading_change_deg": 34.21431366714,
+            "relative_speed_change": 0.7086055809165326,
+            "changed": true
+          }
+        ],
+        [
+          0.9219864744261942,
+          9.566666666666666,
+          {
+            "before": 0.02529285146882369,
+            "after": 0.017383433087707085,
+            "heading_change_deg": 109.66911921832124,
+            "relative_speed_change": 0.3127135898799651,
+            "changed": true
+          }
+        ],
+        [
+          0.9219864744261942,
+          9.566666666666666,
+          {
+            "before": 0.02529285146882369,
+            "after": 0.017383433087707085,
+            "heading_change_deg": 109.66911921832124,
+            "relative_speed_change": 0.3127135898799651,
+            "changed": true
+          }
+        ],
+        [
+          0.9219864744261942,
+          9.566666666666666,
+          {
+            "before": 0.02529285146882369,
+            "after": 0.017383433087707085,
+            "heading_change_deg": 109.66911921832124,
+            "relative_speed_change": 0.3127135898799651,
+            "changed": true
+          }
+        ]
+      ],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window"
+      ]
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        12,
+        13
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        15
+      ],
+      "interaction_interval_s": [
+        9.967,
+        10.033
+      ],
+      "overlap_observations": 6,
+      "max_box_iou": 0.088,
+      "approach_observed": true,
+      "movement_response_candidates": [],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No abrupt heading deflection or synchronized hard stop after interaction"
+      ]
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        27
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        29
+      ],
+      "interaction_interval_s": [
+        7.567,
+        7.667
+      ],
+      "overlap_observations": 5,
+      "max_box_iou": 0.992,
+      "approach_observed": false,
+      "movement_response_candidates": [],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window",
+        "No abrupt heading deflection or synchronized hard stop after interaction"
+      ]
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        33
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        36
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        39
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        41
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        62
+      ],
+      "interaction_interval_s": [
+        10.667,
+        11.7
+      ],
+      "overlap_observations": 93,
+      "max_box_iou": 0.987,
+      "approach_observed": false,
+      "movement_response_candidates": [],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window",
+        "No abrupt heading deflection or synchronized hard stop after interaction"
+      ]
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        14
+      ],
+      "pair_b": [
+        84
+      ],
+      "interaction_interval_s": [
+        12.6,
+        13.533
+      ],
+      "overlap_observations": 86,
+      "max_box_iou": 0.986,
+      "approach_observed": false,
+      "movement_response_candidates": [],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window",
+        "No abrupt heading deflection or synchronized hard stop after interaction"
+      ]
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        27
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        29
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        33
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        36
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        39
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        41
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        15
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        27
+      ],
+      "pair_b": [
+        29
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        27
+      ],
+      "pair_b": [
+        33
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        27
+      ],
+      "pair_b": [
+        36
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        27
+      ],
+      "pair_b": [
+        39
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        27
+      ],
+      "pair_b": [
+        41
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        27
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        27
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        27
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        27
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        27
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        27
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        27
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        29
+      ],
+      "pair_b": [
+        33
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        29
+      ],
+      "pair_b": [
+        36
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        29
+      ],
+      "pair_b": [
+        39
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        29
+      ],
+      "pair_b": [
+        41
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        29
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        29
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        29
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        29
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        29
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        29
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        29
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        33
+      ],
+      "pair_b": [
+        36
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        33
+      ],
+      "pair_b": [
+        39
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        33
+      ],
+      "pair_b": [
+        41
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        33
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        33
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        33
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        33
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        33
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        33
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        33
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        36
+      ],
+      "pair_b": [
+        39
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        36
+      ],
+      "pair_b": [
+        41
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        36
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        36
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        36
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        36
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        36
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        36
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        36
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        39
+      ],
+      "pair_b": [
+        41
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        39
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        39
+      ],
+      "pair_b": [
+        53
+      ],
+      "interaction_interval_s": [
+        11.4,
+        11.433
+      ],
+      "overlap_observations": 3,
+      "max_box_iou": 0.322,
+      "approach_observed": false,
+      "movement_response_candidates": [
+        [
+          1.6848600804637432,
+          11.4,
+          {
+            "before": 0.10791793699935939,
+            "after": 0.026561043714833088,
+            "heading_change_deg": 167.57688327393197,
+            "relative_speed_change": 0.7538773956085655,
+            "changed": true
+          }
+        ],
+        [
+          1.6848600804637432,
+          11.4,
+          {
+            "before": 0.10791793699935939,
+            "after": 0.026561043714833088,
+            "heading_change_deg": 167.57688327393197,
+            "relative_speed_change": 0.7538773956085655,
+            "changed": true
+          }
+        ],
+        [
+          1.6663951457433719,
+          11.433333333333334,
+          {
+            "before": 0.09952722262265942,
+            "after": 0.026135395507451916,
+            "heading_change_deg": 167.21830668329233,
+            "relative_speed_change": 0.7374045530584146,
+            "changed": true
+          }
+        ]
+      ],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window"
+      ]
+    },
+    {
+      "pair_a": [
+        39
+      ],
+      "pair_b": [
+        53
+      ],
+      "interaction_interval_s": [
+        11.867,
+        11.9
+      ],
+      "overlap_observations": 3,
+      "max_box_iou": 0.328,
+      "approach_observed": false,
+      "movement_response_candidates": [],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window",
+        "No abrupt heading deflection or synchronized hard stop after interaction"
+      ]
+    },
+    {
+      "pair_a": [
+        39
+      ],
+      "pair_b": [
+        54
+      ],
+      "interaction_interval_s": [
+        10.667,
+        10.733
+      ],
+      "overlap_observations": 8,
+      "max_box_iou": 0.296,
+      "approach_observed": false,
+      "movement_response_candidates": [],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window",
+        "No abrupt heading deflection or synchronized hard stop after interaction"
+      ]
+    },
+    {
+      "pair_a": [
+        39
+      ],
+      "pair_b": [
+        54
+      ],
+      "interaction_interval_s": [
+        11.1,
+        11.4
+      ],
+      "overlap_observations": 10,
+      "max_box_iou": 0.17,
+      "approach_observed": false,
+      "movement_response_candidates": [],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window",
+        "No abrupt heading deflection or synchronized hard stop after interaction"
+      ]
+    },
+    {
+      "pair_a": [
+        39
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        39
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        39
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        39
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        41
+      ],
+      "pair_b": [
+        52
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        41
+      ],
+      "pair_b": [
+        53
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        41
+      ],
+      "pair_b": [
+        54
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        41
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        41
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        41
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        41
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        52
+      ],
+      "pair_b": [
+        53
+      ],
+      "interaction_interval_s": [
+        10.367,
+        10.6
+      ],
+      "overlap_observations": 21,
+      "max_box_iou": 0.24,
+      "approach_observed": false,
+      "movement_response_candidates": [
+        [
+          0.9843825869553793,
+          10.5,
+          {
+            "before": 0.19827242352040486,
+            "after": 0.034279951029767886,
+            "heading_change_deg": 28.30963916045974,
+            "relative_speed_change": 0.827106813841714,
+            "changed": true
+          }
+        ],
+        [
+          0.9843825869553793,
+          10.5,
+          {
+            "before": 0.19827242352040486,
+            "after": 0.034279951029767886,
+            "heading_change_deg": 28.30963916045974,
+            "relative_speed_change": 0.827106813841714,
+            "changed": true
+          }
+        ],
+        [
+          0.9843825869553793,
+          10.5,
+          {
+            "before": 0.19827242352040486,
+            "after": 0.034279951029767886,
+            "heading_change_deg": 28.30963916045974,
+            "relative_speed_change": 0.827106813841714,
+            "changed": true
+          }
+        ],
+        [
+          1.0961011678964212,
+          10.533333333333333,
+          {
+            "before": 0.060038130022962446,
+            "after": 0.0373905674898036,
+            "heading_change_deg": 129.3986728038937,
+            "relative_speed_change": 0.3772196523192338,
+            "changed": true
+          }
+        ],
+        [
+          1.5474632217637323,
+          10.533333333333333,
+          {
+            "before": 0.11088872215348178,
+            "after": 0.261309085670271,
+            "heading_change_deg": 174.92790338870276,
+            "relative_speed_change": 0.5756415362709391,
+            "changed": true
+          }
+        ],
+        [
+          1.0961011678964212,
+          10.533333333333333,
+          {
+            "before": 0.060038130022962446,
+            "after": 0.0373905674898036,
+            "heading_change_deg": 129.3986728038937,
+            "relative_speed_change": 0.3772196523192338,
+            "changed": true
+          }
+        ],
+        [
+          1.5474632217637323,
+          10.533333333333333,
+          {
+            "before": 0.11088872215348178,
+            "after": 0.261309085670271,
+            "heading_change_deg": 174.92790338870276,
+            "relative_speed_change": 0.5756415362709391,
+            "changed": true
+          }
+        ],
+        [
+          1.0961011678964212,
+          10.533333333333333,
+          {
+            "before": 0.060038130022962446,
+            "after": 0.0373905674898036,
+            "heading_change_deg": 129.3986728038937,
+            "relative_speed_change": 0.3772196523192338,
+            "changed": true
+          }
+        ],
+        [
+          1.5474632217637323,
+          10.533333333333333,
+          {
+            "before": 0.11088872215348178,
+            "after": 0.261309085670271,
+            "heading_change_deg": 174.92790338870276,
+            "relative_speed_change": 0.5756415362709391,
+            "changed": true
+          }
+        ],
+        [
+          1.2868052078737837,
+          10.566666666666666,
+          {
+            "before": 0.08745282569712753,
+            "after": 0.03898476976934944,
+            "heading_change_deg": 131.86543853940077,
+            "relative_speed_change": 0.5542194382104462,
+            "changed": true
+          }
+        ],
+        [
+          1.655997503329805,
+          10.566666666666666,
+          {
+            "before": 0.0814226311753438,
+            "after": 0.261309085670271,
+            "heading_change_deg": 174.16666894034537,
+            "relative_speed_change": 0.6884048981056642,
+            "changed": true
+          }
+        ],
+        [
+          1.2868052078737837,
+          10.566666666666666,
+          {
+            "before": 0.08745282569712753,
+            "after": 0.03898476976934944,
+            "heading_change_deg": 131.86543853940077,
+            "relative_speed_change": 0.5542194382104462,
+            "changed": true
+          }
+        ],
+        [
+          1.655997503329805,
+          10.566666666666666,
+          {
+            "before": 0.0814226311753438,
+            "after": 0.261309085670271,
+            "heading_change_deg": 174.16666894034537,
+            "relative_speed_change": 0.6884048981056642,
+            "changed": true
+          }
+        ],
+        [
+          1.2868052078737837,
+          10.566666666666666,
+          {
+            "before": 0.08745282569712753,
+            "after": 0.03898476976934944,
+            "heading_change_deg": 131.86543853940077,
+            "relative_speed_change": 0.5542194382104462,
+            "changed": true
+          }
+        ],
+        [
+          1.655997503329805,
+          10.566666666666666,
+          {
+            "before": 0.0814226311753438,
+            "after": 0.261309085670271,
+            "heading_change_deg": 174.16666894034537,
+            "relative_speed_change": 0.6884048981056642,
+            "changed": true
+          }
+        ],
+        [
+          1.2304942427041354,
+          10.6,
+          {
+            "before": 0.08083785012646265,
+            "after": 0.038332405667824795,
+            "heading_change_deg": 126.84295330193542,
+            "relative_speed_change": 0.5258111688044942,
+            "changed": true
+          }
+        ],
+        [
+          1.5143538032682466,
+          10.6,
+          {
+            "before": 0.06049875758634895,
+            "after": 0.13184825132162428,
+            "heading_change_deg": 175.1769405198994,
+            "relative_speed_change": 0.5411485781576943,
+            "changed": true
+          }
+        ]
+      ],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window"
+      ]
+    },
+    {
+      "pair_a": [
+        52
+      ],
+      "pair_b": [
+        53
+      ],
+      "interaction_interval_s": [
+        10.867,
+        11.9
+      ],
+      "overlap_observations": 63,
+      "max_box_iou": 0.244,
+      "approach_observed": true,
+      "movement_response_candidates": [
+        [
+          0.47764797469088865,
+          10.866666666666667,
+          {
+            "before": 0.019098461033124917,
+            "after": 0.018762441489184305,
+            "heading_change_deg": 82.80970394111445,
+            "relative_speed_change": 0.01759406390691948,
+            "changed": true
+          }
+        ],
+        [
+          1.4343985384632976,
+          10.866666666666667,
+          {
+            "before": 0.04297860148541345,
+            "after": 0.07639415356328773,
+            "heading_change_deg": 179.45797139990373,
+            "relative_speed_change": 0.4374098084638323,
+            "changed": true
+          }
+        ],
+        [
+          0.47764797469088865,
+          10.866666666666667,
+          {
+            "before": 0.019098461033124917,
+            "after": 0.018762441489184305,
+            "heading_change_deg": 82.80970394111445,
+            "relative_speed_change": 0.01759406390691948,
+            "changed": true
+          }
+        ],
+        [
+          1.4343985384632976,
+          10.866666666666667,
+          {
+            "before": 0.04297860148541345,
+            "after": 0.07639415356328773,
+            "heading_change_deg": 179.45797139990373,
+            "relative_speed_change": 0.4374098084638323,
+            "changed": true
+          }
+        ],
+        [
+          0.5505978483367157,
+          10.9,
+          {
+            "before": 0.019093481139526136,
+            "after": 0.018176308944052155,
+            "heading_change_deg": 90.46115404915025,
+            "relative_speed_change": 0.048035881396992025,
+            "changed": true
+          }
+        ],
+        [
+          0.8913295934146934,
+          11.0,
+          {
+            "before": 0.02671487402187571,
+            "after": 0.018107035659163474,
+            "heading_change_deg": 102.44126535946245,
+            "relative_speed_change": 0.3222114525287909,
+            "changed": true
+          }
+        ],
+        [
+          0.8913295934146934,
+          11.0,
+          {
+            "before": 0.02671487402187571,
+            "after": 0.018107035659163474,
+            "heading_change_deg": 102.44126535946245,
+            "relative_speed_change": 0.3222114525287909,
+            "changed": true
+          }
+        ],
+        [
+          0.8913295934146934,
+          11.0,
+          {
+            "before": 0.02671487402187571,
+            "after": 0.018107035659163474,
+            "heading_change_deg": 102.44126535946245,
+            "relative_speed_change": 0.3222114525287909,
+            "changed": true
+          }
+        ],
+        [
+          0.8529293641062965,
+          11.033333333333333,
+          {
+            "before": 0.026064316372458124,
+            "after": 0.01860473851800681,
+            "heading_change_deg": 102.01148920617916,
+            "relative_speed_change": 0.28619886851641224,
+            "changed": true
+          }
+        ],
+        [
+          0.8529293641062965,
+          11.033333333333333,
+          {
+            "before": 0.026064316372458124,
+            "after": 0.01860473851800681,
+            "heading_change_deg": 102.01148920617916,
+            "relative_speed_change": 0.28619886851641224,
+            "changed": true
+          }
+        ],
+        [
+          0.8529293641062965,
+          11.033333333333333,
+          {
+            "before": 0.026064316372458124,
+            "after": 0.01860473851800681,
+            "heading_change_deg": 102.01148920617916,
+            "relative_speed_change": 0.28619886851641224,
+            "changed": true
+          }
+        ],
+        [
+          1.8230980743687928,
+          11.233333333333334,
+          {
+            "before": 0.261309085670271,
+            "after": 0.030003667530341876,
+            "heading_change_deg": 168.8253624390877,
+            "relative_speed_change": 0.8851793941516387,
+            "changed": true
+          }
+        ],
+        [
+          1.8230980743687928,
+          11.233333333333334,
+          {
+            "before": 0.261309085670271,
+            "after": 0.030003667530341876,
+            "heading_change_deg": 168.8253624390877,
+            "relative_speed_change": 0.8851793941516387,
+            "changed": true
+          }
+        ],
+        [
+          1.8330983364952802,
+          11.266666666666667,
+          {
+            "before": 0.261309085670271,
+            "after": 0.027218163859716725,
+            "heading_change_deg": 168.70664487846187,
+            "relative_speed_change": 0.895839198281603,
+            "changed": true
+          }
+        ],
+        [
+          1.8330983364952802,
+          11.266666666666667,
+          {
+            "before": 0.261309085670271,
+            "after": 0.027218163859716725,
+            "heading_change_deg": 168.70664487846187,
+            "relative_speed_change": 0.895839198281603,
+            "changed": true
+          }
+        ],
+        [
+          1.8330983364952802,
+          11.266666666666667,
+          {
+            "before": 0.261309085670271,
+            "after": 0.027218163859716725,
+            "heading_change_deg": 168.70664487846187,
+            "relative_speed_change": 0.895839198281603,
+            "changed": true
+          }
+        ],
+        [
+          1.837268263502478,
+          11.3,
+          {
+            "before": 0.261309085670271,
+            "after": 0.025850132425823864,
+            "heading_change_deg": 168.51487775513016,
+            "relative_speed_change": 0.9010744981961994,
+            "changed": true
+          }
+        ],
+        [
+          1.837268263502478,
+          11.3,
+          {
+            "before": 0.261309085670271,
+            "after": 0.025850132425823864,
+            "heading_change_deg": 168.51487775513016,
+            "relative_speed_change": 0.9010744981961994,
+            "changed": true
+          }
+        ],
+        [
+          1.837268263502478,
+          11.3,
+          {
+            "before": 0.261309085670271,
+            "after": 0.025850132425823864,
+            "heading_change_deg": 168.51487775513016,
+            "relative_speed_change": 0.9010744981961994,
+            "changed": true
+          }
+        ],
+        [
+          1.7335077877401537,
+          11.333333333333334,
+          {
+            "before": 0.13184825132162428,
+            "after": 0.02612129374260264,
+            "heading_change_deg": 167.69234402445264,
+            "relative_speed_change": 0.8018836542709724,
+            "changed": true
+          }
+        ],
+        [
+          1.7335077877401537,
+          11.333333333333334,
+          {
+            "before": 0.13184825132162428,
+            "after": 0.02612129374260264,
+            "heading_change_deg": 167.69234402445264,
+            "relative_speed_change": 0.8018836542709724,
+            "changed": true
+          }
+        ],
+        [
+          1.7335077877401537,
+          11.333333333333334,
+          {
+            "before": 0.13184825132162428,
+            "after": 0.02612129374260264,
+            "heading_change_deg": 167.69234402445264,
+            "relative_speed_change": 0.8018836542709724,
+            "changed": true
+          }
+        ],
+        [
+          1.7136728978620088,
+          11.366666666666667,
+          {
+            "before": 0.11870658469558273,
+            "after": 0.02569725542833729,
+            "heading_change_deg": 167.42699691991066,
+            "relative_speed_change": 0.7835229149736163,
+            "changed": true
+          }
+        ],
+        [
+          1.7136728978620088,
+          11.366666666666667,
+          {
+            "before": 0.11870658469558273,
+            "after": 0.02569725542833729,
+            "heading_change_deg": 167.42699691991066,
+            "relative_speed_change": 0.7835229149736163,
+            "changed": true
+          }
+        ],
+        [
+          1.7136728978620088,
+          11.366666666666667,
+          {
+            "before": 0.11870658469558273,
+            "after": 0.02569725542833729,
+            "heading_change_deg": 167.42699691991066,
+            "relative_speed_change": 0.7835229149736163,
+            "changed": true
+          }
+        ],
+        [
+          1.6848600804637432,
+          11.4,
+          {
+            "before": 0.10791793699935939,
+            "after": 0.026561043714833088,
+            "heading_change_deg": 167.57688327393197,
+            "relative_speed_change": 0.7538773956085655,
+            "changed": true
+          }
+        ],
+        [
+          1.6848600804637432,
+          11.4,
+          {
+            "before": 0.10791793699935939,
+            "after": 0.026561043714833088,
+            "heading_change_deg": 167.57688327393197,
+            "relative_speed_change": 0.7538773956085655,
+            "changed": true
+          }
+        ],
+        [
+          1.6848600804637432,
+          11.4,
+          {
+            "before": 0.10791793699935939,
+            "after": 0.026561043714833088,
+            "heading_change_deg": 167.57688327393197,
+            "relative_speed_change": 0.7538773956085655,
+            "changed": true
+          }
+        ],
+        [
+          1.6663951457433719,
+          11.433333333333334,
+          {
+            "before": 0.09952722262265942,
+            "after": 0.026135395507451916,
+            "heading_change_deg": 167.21830668329233,
+            "relative_speed_change": 0.7374045530584146,
+            "changed": true
+          }
+        ],
+        [
+          1.6663951457433719,
+          11.433333333333334,
+          {
+            "before": 0.09952722262265942,
+            "after": 0.026135395507451916,
+            "heading_change_deg": 167.21830668329233,
+            "relative_speed_change": 0.7374045530584146,
+            "changed": true
+          }
+        ],
+        [
+          1.6663951457433719,
+          11.433333333333334,
+          {
+            "before": 0.09952722262265942,
+            "after": 0.026135395507451916,
+            "heading_change_deg": 167.21830668329233,
+            "relative_speed_change": 0.7374045530584146,
+            "changed": true
+          }
+        ],
+        [
+          1.5604209921512768,
+          11.466666666666667,
+          {
+            "before": 0.0882379244719657,
+            "after": 0.03311272748421488,
+            "heading_change_deg": 168.42372900453975,
+            "relative_speed_change": 0.6247336087927226,
+            "changed": true
+          }
+        ],
+        [
+          1.5604209921512768,
+          11.466666666666667,
+          {
+            "before": 0.0882379244719657,
+            "after": 0.03311272748421488,
+            "heading_change_deg": 168.42372900453975,
+            "relative_speed_change": 0.6247336087927226,
+            "changed": true
+          }
+        ],
+        [
+          1.5604209921512768,
+          11.466666666666667,
+          {
+            "before": 0.0882379244719657,
+            "after": 0.03311272748421488,
+            "heading_change_deg": 168.42372900453975,
+            "relative_speed_change": 0.6247336087927226,
+            "changed": true
+          }
+        ],
+        [
+          1.4500892162521333,
+          11.5,
+          {
+            "before": 0.0799024337518746,
+            "after": 0.038981938772843616,
+            "heading_change_deg": 168.8325201974066,
+            "relative_speed_change": 0.5121307707109853,
+            "changed": true
+          }
+        ],
+        [
+          1.4500892162521333,
+          11.5,
+          {
+            "before": 0.0799024337518746,
+            "after": 0.038981938772843616,
+            "heading_change_deg": 168.8325201974066,
+            "relative_speed_change": 0.5121307707109853,
+            "changed": true
+          }
+        ],
+        [
+          1.4500892162521333,
+          11.5,
+          {
+            "before": 0.0799024337518746,
+            "after": 0.038981938772843616,
+            "heading_change_deg": 168.8325201974066,
+            "relative_speed_change": 0.5121307707109853,
+            "changed": true
+          }
+        ],
+        [
+          0.20648083363420386,
+          11.533333333333333,
+          {
+            "before": 0.023141336163598276,
+            "after": 0.024612329822304824,
+            "heading_change_deg": 26.408573849595037,
+            "relative_speed_change": 0.059766534469787004,
+            "changed": true
+          }
+        ],
+        [
+          1.4132396505722358,
+          11.533333333333333,
+          {
+            "before": 0.021739979667759087,
+            "after": 0.04340521915261241,
+            "heading_change_deg": 164.5381096291834,
+            "relative_speed_change": 0.49913904152121685,
+            "changed": true
+          }
+        ],
+        [
+          0.20648083363420386,
+          11.533333333333333,
+          {
+            "before": 0.023141336163598276,
+            "after": 0.024612329822304824,
+            "heading_change_deg": 26.408573849595037,
+            "relative_speed_change": 0.059766534469787004,
+            "changed": true
+          }
+        ],
+        [
+          1.4132396505722358,
+          11.533333333333333,
+          {
+            "before": 0.021739979667759087,
+            "after": 0.04340521915261241,
+            "heading_change_deg": 164.5381096291834,
+            "relative_speed_change": 0.49913904152121685,
+            "changed": true
+          }
+        ],
+        [
+          0.20648083363420386,
+          11.533333333333333,
+          {
+            "before": 0.023141336163598276,
+            "after": 0.024612329822304824,
+            "heading_change_deg": 26.408573849595037,
+            "relative_speed_change": 0.059766534469787004,
+            "changed": true
+          }
+        ],
+        [
+          1.4132396505722358,
+          11.533333333333333,
+          {
+            "before": 0.021739979667759087,
+            "after": 0.04340521915261241,
+            "heading_change_deg": 164.5381096291834,
+            "relative_speed_change": 0.49913904152121685,
+            "changed": true
+          }
+        ],
+        [
+          0.6257601594054945,
+          11.566666666666666,
+          {
+            "before": 0.018676067306386115,
+            "after": 0.03044326016596164,
+            "heading_change_deg": 43.06166810976676,
+            "relative_speed_change": 0.3865286699067903,
+            "changed": true
+          }
+        ],
+        [
+          1.4998900842775287,
+          11.566666666666666,
+          {
+            "before": 0.01858154172192474,
+            "after": 0.045483663478560706,
+            "heading_change_deg": 163.51601361158703,
+            "relative_speed_change": 0.5914677864353785,
+            "changed": true
+          }
+        ],
+        [
+          0.6257601594054945,
+          11.566666666666666,
+          {
+            "before": 0.018676067306386115,
+            "after": 0.03044326016596164,
+            "heading_change_deg": 43.06166810976676,
+            "relative_speed_change": 0.3865286699067903,
+            "changed": true
+          }
+        ],
+        [
+          1.4998900842775287,
+          11.566666666666666,
+          {
+            "before": 0.01858154172192474,
+            "after": 0.045483663478560706,
+            "heading_change_deg": 163.51601361158703,
+            "relative_speed_change": 0.5914677864353785,
+            "changed": true
+          }
+        ],
+        [
+          0.6257601594054945,
+          11.566666666666666,
+          {
+            "before": 0.018676067306386115,
+            "after": 0.03044326016596164,
+            "heading_change_deg": 43.06166810976676,
+            "relative_speed_change": 0.3865286699067903,
+            "changed": true
+          }
+        ],
+        [
+          1.4998900842775287,
+          11.566666666666666,
+          {
+            "before": 0.01858154172192474,
+            "after": 0.045483663478560706,
+            "heading_change_deg": 163.51601361158703,
+            "relative_speed_change": 0.5914677864353785,
+            "changed": true
+          }
+        ],
+        [
+          0.7022277513577762,
+          11.600000000000001,
+          {
+            "before": 0.018762441489184305,
+            "after": 0.034762829012519085,
+            "heading_change_deg": 43.55187634320024,
+            "relative_speed_change": 0.4602728827844415,
+            "changed": true
+          }
+        ],
+        [
+          0.7022277513577762,
+          11.600000000000001,
+          {
+            "before": 0.018762441489184305,
+            "after": 0.034762829012519085,
+            "heading_change_deg": 43.55187634320024,
+            "relative_speed_change": 0.4602728827844415,
+            "changed": true
+          }
+        ],
+        [
+          0.7022277513577762,
+          11.600000000000001,
+          {
+            "before": 0.018762441489184305,
+            "after": 0.034762829012519085,
+            "heading_change_deg": 43.55187634320024,
+            "relative_speed_change": 0.4602728827844415,
+            "changed": true
+          }
+        ],
+        [
+          0.6642713033460265,
+          11.633333333333335,
+          {
+            "before": 0.018176308944052155,
+            "after": 0.03386807128856066,
+            "heading_change_deg": 36.17119444893051,
+            "relative_speed_change": 0.46332022307419035,
+            "changed": true
+          }
+        ],
+        [
+          0.6642713033460265,
+          11.633333333333335,
+          {
+            "before": 0.018176308944052155,
+            "after": 0.03386807128856066,
+            "heading_change_deg": 36.17119444893051,
+            "relative_speed_change": 0.46332022307419035,
+            "changed": true
+          }
+        ],
+        [
+          0.6642713033460265,
+          11.633333333333335,
+          {
+            "before": 0.018176308944052155,
+            "after": 0.03386807128856066,
+            "heading_change_deg": 36.17119444893051,
+            "relative_speed_change": 0.46332022307419035,
+            "changed": true
+          }
+        ],
+        [
+          0.690494594221876,
+          11.666666666666668,
+          {
+            "before": 0.017714565149199384,
+            "after": 0.03346225323448997,
+            "heading_change_deg": 39.57913502622102,
+            "relative_speed_change": 0.4706105107428703,
+            "changed": true
+          }
+        ],
+        [
+          0.690494594221876,
+          11.666666666666668,
+          {
+            "before": 0.017714565149199384,
+            "after": 0.03346225323448997,
+            "heading_change_deg": 39.57913502622102,
+            "relative_speed_change": 0.4706105107428703,
+            "changed": true
+          }
+        ],
+        [
+          0.690494594221876,
+          11.666666666666668,
+          {
+            "before": 0.017714565149199384,
+            "after": 0.03346225323448997,
+            "heading_change_deg": 39.57913502622102,
+            "relative_speed_change": 0.4706105107428703,
+            "changed": true
+          }
+        ],
+        [
+          0.7141498324199579,
+          11.700000000000001,
+          {
+            "before": 0.01673039217661069,
+            "after": 0.03355284277251126,
+            "heading_change_deg": 38.300038218135654,
+            "relative_speed_change": 0.5013718423192043,
+            "changed": true
+          }
+        ],
+        [
+          0.7141498324199579,
+          11.700000000000001,
+          {
+            "before": 0.01673039217661069,
+            "after": 0.03355284277251126,
+            "heading_change_deg": 38.300038218135654,
+            "relative_speed_change": 0.5013718423192043,
+            "changed": true
+          }
+        ],
+        [
+          0.7141498324199579,
+          11.700000000000001,
+          {
+            "before": 0.01673039217661069,
+            "after": 0.03355284277251126,
+            "heading_change_deg": 38.300038218135654,
+            "relative_speed_change": 0.5013718423192043,
+            "changed": true
+          }
+        ],
+        [
+          0.6397243043203586,
+          11.733333333333334,
+          {
+            "before": 0.018107035659163474,
+            "after": 0.03577818782919994,
+            "heading_change_deg": 26.246839310991575,
+            "relative_speed_change": 0.4939085303704054,
+            "changed": true
+          }
+        ],
+        [
+          0.8083524178220796,
+          11.9,
+          {
+            "before": 0.01665409627504676,
+            "after": 0.043882372192709095,
+            "heading_change_deg": 33.81645430238145,
+            "relative_speed_change": 0.6204832272532937,
+            "changed": true
+          }
+        ]
+      ],
+      "decision": "candidate",
+      "rejection_reasons": []
+    },
+    {
+      "pair_a": [
+        52
+      ],
+      "pair_b": [
+        54
+      ],
+      "interaction_interval_s": [
+        10.4,
+        11.633
+      ],
+      "overlap_observations": 75,
+      "max_box_iou": 0.242,
+      "approach_observed": false,
+      "movement_response_candidates": [
+        [
+          0.9843825869553793,
+          10.5,
+          {
+            "before": 0.19827242352040486,
+            "after": 0.034279951029767886,
+            "heading_change_deg": 28.30963916045974,
+            "relative_speed_change": 0.827106813841714,
+            "changed": true
+          }
+        ],
+        [
+          0.9843825869553793,
+          10.5,
+          {
+            "before": 0.19827242352040486,
+            "after": 0.034279951029767886,
+            "heading_change_deg": 28.30963916045974,
+            "relative_speed_change": 0.827106813841714,
+            "changed": true
+          }
+        ],
+        [
+          0.9843825869553793,
+          10.5,
+          {
+            "before": 0.19827242352040486,
+            "after": 0.034279951029767886,
+            "heading_change_deg": 28.30963916045974,
+            "relative_speed_change": 0.827106813841714,
+            "changed": true
+          }
+        ],
+        [
+          1.0961011678964212,
+          10.533333333333333,
+          {
+            "before": 0.060038130022962446,
+            "after": 0.0373905674898036,
+            "heading_change_deg": 129.3986728038937,
+            "relative_speed_change": 0.3772196523192338,
+            "changed": true
+          }
+        ],
+        [
+          1.0961011678964212,
+          10.533333333333333,
+          {
+            "before": 0.060038130022962446,
+            "after": 0.0373905674898036,
+            "heading_change_deg": 129.3986728038937,
+            "relative_speed_change": 0.3772196523192338,
+            "changed": true
+          }
+        ],
+        [
+          1.0961011678964212,
+          10.533333333333333,
+          {
+            "before": 0.060038130022962446,
+            "after": 0.0373905674898036,
+            "heading_change_deg": 129.3986728038937,
+            "relative_speed_change": 0.3772196523192338,
+            "changed": true
+          }
+        ],
+        [
+          1.2868052078737837,
+          10.566666666666666,
+          {
+            "before": 0.08745282569712753,
+            "after": 0.03898476976934944,
+            "heading_change_deg": 131.86543853940077,
+            "relative_speed_change": 0.5542194382104462,
+            "changed": true
+          }
+        ],
+        [
+          1.2868052078737837,
+          10.566666666666666,
+          {
+            "before": 0.08745282569712753,
+            "after": 0.03898476976934944,
+            "heading_change_deg": 131.86543853940077,
+            "relative_speed_change": 0.5542194382104462,
+            "changed": true
+          }
+        ],
+        [
+          1.2868052078737837,
+          10.566666666666666,
+          {
+            "before": 0.08745282569712753,
+            "after": 0.03898476976934944,
+            "heading_change_deg": 131.86543853940077,
+            "relative_speed_change": 0.5542194382104462,
+            "changed": true
+          }
+        ],
+        [
+          1.2304942427041354,
+          10.6,
+          {
+            "before": 0.08083785012646265,
+            "after": 0.038332405667824795,
+            "heading_change_deg": 126.84295330193542,
+            "relative_speed_change": 0.5258111688044942,
+            "changed": true
+          }
+        ],
+        [
+          1.2304942427041354,
+          10.6,
+          {
+            "before": 0.08083785012646265,
+            "after": 0.038332405667824795,
+            "heading_change_deg": 126.84295330193542,
+            "relative_speed_change": 0.5258111688044942,
+            "changed": true
+          }
+        ],
+        [
+          1.2304942427041354,
+          10.6,
+          {
+            "before": 0.08083785012646265,
+            "after": 0.038332405667824795,
+            "heading_change_deg": 126.84295330193542,
+            "relative_speed_change": 0.5258111688044942,
+            "changed": true
+          }
+        ],
+        [
+          1.1490404924631226,
+          10.633333333333335,
+          {
+            "before": 0.06863396191199345,
+            "after": 0.03732288214728786,
+            "heading_change_deg": 124.71059013666923,
+            "relative_speed_change": 0.45620388059273803,
+            "changed": true
+          }
+        ],
+        [
+          1.1490404924631226,
+          10.633333333333335,
+          {
+            "before": 0.06863396191199345,
+            "after": 0.03732288214728786,
+            "heading_change_deg": 124.71059013666923,
+            "relative_speed_change": 0.45620388059273803,
+            "changed": true
+          }
+        ],
+        [
+          1.1490404924631226,
+          10.633333333333335,
+          {
+            "before": 0.06863396191199345,
+            "after": 0.03732288214728786,
+            "heading_change_deg": 124.71059013666923,
+            "relative_speed_change": 0.45620388059273803,
+            "changed": true
+          }
+        ],
+        [
+          1.0028451350578895,
+          10.666666666666668,
+          {
+            "before": 0.051458273746312594,
+            "after": 0.036365622610127275,
+            "heading_change_deg": 127.71833612571581,
+            "relative_speed_change": 0.2932988232483572,
+            "changed": true
+          }
+        ],
+        [
+          1.0028451350578895,
+          10.666666666666668,
+          {
+            "before": 0.051458273746312594,
+            "after": 0.036365622610127275,
+            "heading_change_deg": 127.71833612571581,
+            "relative_speed_change": 0.2932988232483572,
+            "changed": true
+          }
+        ],
+        [
+          1.0028451350578895,
+          10.666666666666668,
+          {
+            "before": 0.051458273746312594,
+            "after": 0.036365622610127275,
+            "heading_change_deg": 127.71833612571581,
+            "relative_speed_change": 0.2932988232483572,
+            "changed": true
+          }
+        ],
+        [
+          0.7386687623995918,
+          10.700000000000001,
+          {
+            "before": 0.03772581328504074,
+            "after": 0.03640325392382743,
+            "heading_change_deg": 126.6500908712401,
+            "relative_speed_change": 0.035057146448258,
+            "changed": true
+          }
+        ],
+        [
+          0.7386687623995918,
+          10.700000000000001,
+          {
+            "before": 0.03772581328504074,
+            "after": 0.03640325392382743,
+            "heading_change_deg": 126.6500908712401,
+            "relative_speed_change": 0.035057146448258,
+            "changed": true
+          }
+        ],
+        [
+          0.7386687623995918,
+          10.700000000000001,
+          {
+            "before": 0.03772581328504074,
+            "after": 0.03640325392382743,
+            "heading_change_deg": 126.6500908712401,
+            "relative_speed_change": 0.035057146448258,
+            "changed": true
+          }
+        ],
+        [
+          0.699318639741365,
+          10.733333333333334,
+          {
+            "before": 0.03122447086556543,
+            "after": 0.029811371593778984,
+            "heading_change_deg": 117.73124853032057,
+            "relative_speed_change": 0.0452561479062507,
+            "changed": true
+          }
+        ],
+        [
+          0.699318639741365,
+          10.733333333333334,
+          {
+            "before": 0.03122447086556543,
+            "after": 0.029811371593778984,
+            "heading_change_deg": 117.73124853032057,
+            "relative_speed_change": 0.0452561479062507,
+            "changed": true
+          }
+        ],
+        [
+          0.699318639741365,
+          10.733333333333334,
+          {
+            "before": 0.03122447086556543,
+            "after": 0.029811371593778984,
+            "heading_change_deg": 117.73124853032057,
+            "relative_speed_change": 0.0452561479062507,
+            "changed": true
+          }
+        ],
+        [
+          0.637379923026805,
+          10.766666666666667,
+          {
+            "before": 0.027973363663040166,
+            "after": 0.027764237232960672,
+            "heading_change_deg": 113.38272182401802,
+            "relative_speed_change": 0.007475912893371554,
+            "changed": true
+          }
+        ],
+        [
+          0.5505978483367157,
+          10.9,
+          {
+            "before": 0.019093481139526136,
+            "after": 0.018176308944052155,
+            "heading_change_deg": 90.46115404915025,
+            "relative_speed_change": 0.048035881396992025,
+            "changed": true
+          }
+        ],
+        [
+          0.5505978483367157,
+          10.9,
+          {
+            "before": 0.019093481139526136,
+            "after": 0.018176308944052155,
+            "heading_change_deg": 90.46115404915025,
+            "relative_speed_change": 0.048035881396992025,
+            "changed": true
+          }
+        ],
+        [
+          0.8913295934146934,
+          11.0,
+          {
+            "before": 0.02671487402187571,
+            "after": 0.018107035659163474,
+            "heading_change_deg": 102.44126535946245,
+            "relative_speed_change": 0.3222114525287909,
+            "changed": true
+          }
+        ],
+        [
+          0.8913295934146934,
+          11.0,
+          {
+            "before": 0.02671487402187571,
+            "after": 0.018107035659163474,
+            "heading_change_deg": 102.44126535946245,
+            "relative_speed_change": 0.3222114525287909,
+            "changed": true
+          }
+        ],
+        [
+          0.8529293641062965,
+          11.033333333333333,
+          {
+            "before": 0.026064316372458124,
+            "after": 0.01860473851800681,
+            "heading_change_deg": 102.01148920617916,
+            "relative_speed_change": 0.28619886851641224,
+            "changed": true
+          }
+        ],
+        [
+          0.8529293641062965,
+          11.033333333333333,
+          {
+            "before": 0.026064316372458124,
+            "after": 0.01860473851800681,
+            "heading_change_deg": 102.01148920617916,
+            "relative_speed_change": 0.28619886851641224,
+            "changed": true
+          }
+        ],
+        [
+          0.8529293641062965,
+          11.033333333333333,
+          {
+            "before": 0.026064316372458124,
+            "after": 0.01860473851800681,
+            "heading_change_deg": 102.01148920617916,
+            "relative_speed_change": 0.28619886851641224,
+            "changed": true
+          }
+        ],
+        [
+          0.20648083363420386,
+          11.533333333333333,
+          {
+            "before": 0.023141336163598276,
+            "after": 0.024612329822304824,
+            "heading_change_deg": 26.408573849595037,
+            "relative_speed_change": 0.059766534469787004,
+            "changed": true
+          }
+        ],
+        [
+          0.20648083363420386,
+          11.533333333333333,
+          {
+            "before": 0.023141336163598276,
+            "after": 0.024612329822304824,
+            "heading_change_deg": 26.408573849595037,
+            "relative_speed_change": 0.059766534469787004,
+            "changed": true
+          }
+        ],
+        [
+          0.20648083363420386,
+          11.533333333333333,
+          {
+            "before": 0.023141336163598276,
+            "after": 0.024612329822304824,
+            "heading_change_deg": 26.408573849595037,
+            "relative_speed_change": 0.059766534469787004,
+            "changed": true
+          }
+        ],
+        [
+          0.6257601594054945,
+          11.566666666666666,
+          {
+            "before": 0.018676067306386115,
+            "after": 0.03044326016596164,
+            "heading_change_deg": 43.06166810976676,
+            "relative_speed_change": 0.3865286699067903,
+            "changed": true
+          }
+        ],
+        [
+          0.6257601594054945,
+          11.566666666666666,
+          {
+            "before": 0.018676067306386115,
+            "after": 0.03044326016596164,
+            "heading_change_deg": 43.06166810976676,
+            "relative_speed_change": 0.3865286699067903,
+            "changed": true
+          }
+        ],
+        [
+          0.6257601594054945,
+          11.566666666666666,
+          {
+            "before": 0.018676067306386115,
+            "after": 0.03044326016596164,
+            "heading_change_deg": 43.06166810976676,
+            "relative_speed_change": 0.3865286699067903,
+            "changed": true
+          }
+        ],
+        [
+          0.7022277513577762,
+          11.600000000000001,
+          {
+            "before": 0.018762441489184305,
+            "after": 0.034762829012519085,
+            "heading_change_deg": 43.55187634320024,
+            "relative_speed_change": 0.4602728827844415,
+            "changed": true
+          }
+        ],
+        [
+          0.7022277513577762,
+          11.600000000000001,
+          {
+            "before": 0.018762441489184305,
+            "after": 0.034762829012519085,
+            "heading_change_deg": 43.55187634320024,
+            "relative_speed_change": 0.4602728827844415,
+            "changed": true
+          }
+        ],
+        [
+          0.7022277513577762,
+          11.600000000000001,
+          {
+            "before": 0.018762441489184305,
+            "after": 0.034762829012519085,
+            "heading_change_deg": 43.55187634320024,
+            "relative_speed_change": 0.4602728827844415,
+            "changed": true
+          }
+        ],
+        [
+          0.6642713033460265,
+          11.633333333333335,
+          {
+            "before": 0.018176308944052155,
+            "after": 0.03386807128856066,
+            "heading_change_deg": 36.17119444893051,
+            "relative_speed_change": 0.46332022307419035,
+            "changed": true
+          }
+        ]
+      ],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window"
+      ]
+    },
+    {
+      "pair_a": [
+        52
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        52
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        52
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        52
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        53
+      ],
+      "pair_b": [
+        54
+      ],
+      "interaction_interval_s": [
+        10.4,
+        10.6
+      ],
+      "overlap_observations": 18,
+      "max_box_iou": 0.98,
+      "approach_observed": false,
+      "movement_response_candidates": [
+        [
+          1.5474632217637323,
+          10.533333333333333,
+          {
+            "before": 0.11088872215348178,
+            "after": 0.261309085670271,
+            "heading_change_deg": 174.92790338870276,
+            "relative_speed_change": 0.5756415362709391,
+            "changed": true
+          }
+        ],
+        [
+          1.5474632217637323,
+          10.533333333333333,
+          {
+            "before": 0.11088872215348178,
+            "after": 0.261309085670271,
+            "heading_change_deg": 174.92790338870276,
+            "relative_speed_change": 0.5756415362709391,
+            "changed": true
+          }
+        ],
+        [
+          1.5474632217637323,
+          10.533333333333333,
+          {
+            "before": 0.11088872215348178,
+            "after": 0.261309085670271,
+            "heading_change_deg": 174.92790338870276,
+            "relative_speed_change": 0.5756415362709391,
+            "changed": true
+          }
+        ],
+        [
+          1.655997503329805,
+          10.566666666666666,
+          {
+            "before": 0.0814226311753438,
+            "after": 0.261309085670271,
+            "heading_change_deg": 174.16666894034537,
+            "relative_speed_change": 0.6884048981056642,
+            "changed": true
+          }
+        ],
+        [
+          1.655997503329805,
+          10.566666666666666,
+          {
+            "before": 0.0814226311753438,
+            "after": 0.261309085670271,
+            "heading_change_deg": 174.16666894034537,
+            "relative_speed_change": 0.6884048981056642,
+            "changed": true
+          }
+        ],
+        [
+          1.655997503329805,
+          10.566666666666666,
+          {
+            "before": 0.0814226311753438,
+            "after": 0.261309085670271,
+            "heading_change_deg": 174.16666894034537,
+            "relative_speed_change": 0.6884048981056642,
+            "changed": true
+          }
+        ],
+        [
+          1.5143538032682466,
+          10.6,
+          {
+            "before": 0.06049875758634895,
+            "after": 0.13184825132162428,
+            "heading_change_deg": 175.1769405198994,
+            "relative_speed_change": 0.5411485781576943,
+            "changed": true
+          }
+        ]
+      ],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window"
+      ]
+    },
+    {
+      "pair_a": [
+        53
+      ],
+      "pair_b": [
+        54
+      ],
+      "interaction_interval_s": [
+        10.9,
+        11.633
+      ],
+      "overlap_observations": 26,
+      "max_box_iou": 0.963,
+      "approach_observed": false,
+      "movement_response_candidates": [
+        [
+          1.8230980743687928,
+          11.233333333333334,
+          {
+            "before": 0.261309085670271,
+            "after": 0.030003667530341876,
+            "heading_change_deg": 168.8253624390877,
+            "relative_speed_change": 0.8851793941516387,
+            "changed": true
+          }
+        ],
+        [
+          0.969535106267395,
+          11.233333333333334,
+          {
+            "before": 0.13740831456950986,
+            "after": 0.004186129701336476,
+            "heading_change_deg": 0.0,
+            "relative_speed_change": 0.969535106267395,
+            "changed": true
+          }
+        ],
+        [
+          1.8230980743687928,
+          11.233333333333334,
+          {
+            "before": 0.261309085670271,
+            "after": 0.030003667530341876,
+            "heading_change_deg": 168.8253624390877,
+            "relative_speed_change": 0.8851793941516387,
+            "changed": true
+          }
+        ],
+        [
+          0.969535106267395,
+          11.233333333333334,
+          {
+            "before": 0.13740831456950986,
+            "after": 0.004186129701336476,
+            "heading_change_deg": 0.0,
+            "relative_speed_change": 0.969535106267395,
+            "changed": true
+          }
+        ],
+        [
+          1.8330983364952802,
+          11.266666666666667,
+          {
+            "before": 0.261309085670271,
+            "after": 0.027218163859716725,
+            "heading_change_deg": 168.70664487846187,
+            "relative_speed_change": 0.895839198281603,
+            "changed": true
+          }
+        ],
+        [
+          0.9690644910909046,
+          11.266666666666667,
+          {
+            "before": 0.1353179517310514,
+            "after": 0.004186129701336476,
+            "heading_change_deg": 0.0,
+            "relative_speed_change": 0.9690644910909046,
+            "changed": true
+          }
+        ],
+        [
+          1.7136728978620088,
+          11.366666666666667,
+          {
+            "before": 0.11870658469558273,
+            "after": 0.02569725542833729,
+            "heading_change_deg": 167.42699691991066,
+            "relative_speed_change": 0.7835229149736163,
+            "changed": true
+          }
+        ],
+        [
+          1.7136728978620088,
+          11.366666666666667,
+          {
+            "before": 0.11870658469558273,
+            "after": 0.02569725542833729,
+            "heading_change_deg": 167.42699691991066,
+            "relative_speed_change": 0.7835229149736163,
+            "changed": true
+          }
+        ],
+        [
+          1.6848600804637432,
+          11.4,
+          {
+            "before": 0.10791793699935939,
+            "after": 0.026561043714833088,
+            "heading_change_deg": 167.57688327393197,
+            "relative_speed_change": 0.7538773956085655,
+            "changed": true
+          }
+        ],
+        [
+          0.8298136365328936,
+          11.4,
+          {
+            "before": 0.1846136021482688,
+            "after": 0.036270959564050305,
+            "heading_change_deg": 4.730981596446659,
+            "relative_speed_change": 0.8035304054415233,
+            "changed": true
+          }
+        ],
+        [
+          1.4500892162521333,
+          11.5,
+          {
+            "before": 0.0799024337518746,
+            "after": 0.038981938772843616,
+            "heading_change_deg": 168.8325201974066,
+            "relative_speed_change": 0.5121307707109853,
+            "changed": true
+          }
+        ],
+        [
+          1.4500892162521333,
+          11.5,
+          {
+            "before": 0.0799024337518746,
+            "after": 0.038981938772843616,
+            "heading_change_deg": 168.8325201974066,
+            "relative_speed_change": 0.5121307707109853,
+            "changed": true
+          }
+        ],
+        [
+          1.4132396505722358,
+          11.533333333333333,
+          {
+            "before": 0.021739979667759087,
+            "after": 0.04340521915261241,
+            "heading_change_deg": 164.5381096291834,
+            "relative_speed_change": 0.49913904152121685,
+            "changed": true
+          }
+        ],
+        [
+          1.4132396505722358,
+          11.533333333333333,
+          {
+            "before": 0.021739979667759087,
+            "after": 0.04340521915261241,
+            "heading_change_deg": 164.5381096291834,
+            "relative_speed_change": 0.49913904152121685,
+            "changed": true
+          }
+        ],
+        [
+          1.4132396505722358,
+          11.533333333333333,
+          {
+            "before": 0.021739979667759087,
+            "after": 0.04340521915261241,
+            "heading_change_deg": 164.5381096291834,
+            "relative_speed_change": 0.49913904152121685,
+            "changed": true
+          }
+        ],
+        [
+          1.4998900842775287,
+          11.566666666666666,
+          {
+            "before": 0.01858154172192474,
+            "after": 0.045483663478560706,
+            "heading_change_deg": 163.51601361158703,
+            "relative_speed_change": 0.5914677864353785,
+            "changed": true
+          }
+        ],
+        [
+          1.4998900842775287,
+          11.566666666666666,
+          {
+            "before": 0.01858154172192474,
+            "after": 0.045483663478560706,
+            "heading_change_deg": 163.51601361158703,
+            "relative_speed_change": 0.5914677864353785,
+            "changed": true
+          }
+        ],
+        [
+          1.4998900842775287,
+          11.566666666666666,
+          {
+            "before": 0.01858154172192474,
+            "after": 0.045483663478560706,
+            "heading_change_deg": 163.51601361158703,
+            "relative_speed_change": 0.5914677864353785,
+            "changed": true
+          }
+        ]
+      ],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window"
+      ]
+    },
+    {
+      "pair_a": [
+        53
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        53
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        53
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        53
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        54
+      ],
+      "pair_b": [
+        62
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        54
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        54
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        54
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        62
+      ],
+      "pair_b": [
+        64
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        62
+      ],
+      "pair_b": [
+        69
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        62
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        64
+      ],
+      "pair_b": [
+        69
+      ],
+      "interaction_interval_s": [
+        11.9,
+        12.067
+      ],
+      "overlap_observations": 7,
+      "max_box_iou": 0.401,
+      "approach_observed": false,
+      "movement_response_candidates": [],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window",
+        "No abrupt heading deflection or synchronized hard stop after interaction"
+      ]
+    },
+    {
+      "pair_a": [
+        64
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        69
+      ],
+      "pair_b": [
+        84
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    }
+  ]
+}

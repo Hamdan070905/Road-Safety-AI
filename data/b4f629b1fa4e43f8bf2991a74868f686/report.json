@@ -1,0 +1,56 @@
+{
+  "events": [
+    {
+      "id": "7f53148c",
+      "type": "interaction_candidate",
+      "timestamp": 3.8,
+      "participants": [
+        3,
+        5
+      ],
+      "metrics": {
+        "closest_approach_seconds": 0.518,
+        "normalized_clearance": 0.0347
+      },
+      "review": "pending",
+      "thumbnail": "/media/b4f629b1fa4e43f8bf2991a74868f686/7f53148c.jpg",
+      "reason": "Persistent image-space converging trajectories. Perspective and occlusion can cause false alarms.",
+      "measurement_mode": "uncalibrated image space",
+      "ttc": null,
+      "pet": null,
+      "clip": "/media/b4f629b1fa4e43f8bf2991a74868f686/7f53148c.mp4"
+    },
+    {
+      "id": "4032e715",
+      "type": "interaction_candidate",
+      "timestamp": 3.88,
+      "participants": [
+        1,
+        5
+      ],
+      "metrics": {
+        "closest_approach_seconds": 0.874,
+        "normalized_clearance": 0.0116
+      },
+      "review": "pending",
+      "thumbnail": "/media/b4f629b1fa4e43f8bf2991a74868f686/4032e715.jpg",
+      "reason": "Persistent image-space converging trajectories. Perspective and occlusion can cause false alarms.",
+      "measurement_mode": "uncalibrated image space",
+      "ttc": null,
+      "pet": null,
+      "clip": "/media/b4f629b1fa4e43f8bf2991a74868f686/4032e715.mp4"
+    }
+  ],
+  "frames": 175,
+  "duration": 7.0,
+  "tracks": 10,
+  "runtime": 48.36,
+  "model": "yolo11n.pt",
+  "device": "cpu",
+  "playback": "/media/b4f629b1fa4e43f8bf2991a74868f686/annotated.mp4",
+  "limitations": [
+    "Image-space screening only; not calibrated near-miss confirmation.",
+    "No TTC, PET, physical speed, damage or lane inference in this release.",
+    "Input limited to first five minutes; duration computed from frame count."
+  ]
+}

@@ -1,0 +1,3 @@
+# Deprecated: use requirements.txt for the portable CPU-first application.
+# Install PyTorch from the official platform-specific selector if CUDA is required.
+-r requirements.txt

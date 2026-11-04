@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+node_modules/
+.env
+*.pt
+*.onnx
+*.mp4
+*.avi
+
+.venv312/
+*.sqlite-shm
+*.sqlite-wal

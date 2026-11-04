@@ -1,0 +1,789 @@
+{
+  "camera_mode": "fixed",
+  "camera_moved": false,
+  "calibration_valid": false,
+  "engine": "legacy-image-screen-v1",
+  "collision_engine": "image-space collision screen",
+  "records": [
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        2
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        3,
+        15
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        4
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        6
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        7,
+        16
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        1
+      ],
+      "pair_b": [
+        21
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        2
+      ],
+      "pair_b": [
+        3,
+        15
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        2
+      ],
+      "pair_b": [
+        4
+      ],
+      "interaction_interval_s": [
+        0.067,
+        0.3
+      ],
+      "overlap_observations": 12,
+      "max_box_iou": 0.398,
+      "approach_observed": false,
+      "movement_response_candidates": [],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window",
+        "No abrupt heading deflection or synchronized hard stop after interaction"
+      ]
+    },
+    {
+      "pair_a": [
+        2
+      ],
+      "pair_b": [
+        4
+      ],
+      "interaction_interval_s": [
+        0.634,
+        1.535
+      ],
+      "overlap_observations": 63,
+      "max_box_iou": 0.405,
+      "approach_observed": false,
+      "movement_response_candidates": [],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window",
+        "No abrupt heading deflection or synchronized hard stop after interaction"
+      ]
+    },
+    {
+      "pair_a": [
+        2
+      ],
+      "pair_b": [
+        6
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        2
+      ],
+      "pair_b": [
+        7,
+        16
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        2
+      ],
+      "pair_b": [
+        21
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3,
+        15
+      ],
+      "pair_b": [
+        4
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3,
+        15
+      ],
+      "pair_b": [
+        6
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        3,
+        15
+      ],
+      "pair_b": [
+        7,
+        16
+      ],
+      "interaction_interval_s": [
+        1.502,
+        2.603
+      ],
+      "overlap_observations": 56,
+      "max_box_iou": 0.19,
+      "approach_observed": true,
+      "movement_response_candidates": [
+        [
+          0.1807243446363078,
+          1.5015,
+          {
+            "before": 0.3067033443611084,
+            "after": 0.3152384603122381,
+            "heading_change_deg": 27.65686225626453,
+            "relative_speed_change": 0.027075109879282595,
+            "changed": true
+          }
+        ],
+        [
+          0.1807243446363078,
+          1.5015,
+          {
+            "before": 0.3067033443611084,
+            "after": 0.3152384603122381,
+            "heading_change_deg": 27.65686225626453,
+            "relative_speed_change": 0.027075109879282595,
+            "changed": true
+          }
+        ],
+        [
+          0.18327726791567375,
+          1.5348666666666668,
+          {
+            "before": 0.3079759690809642,
+            "after": 0.3160367671974461,
+            "heading_change_deg": 28.398848539476948,
+            "relative_speed_change": 0.02550588714080181,
+            "changed": true
+          }
+        ],
+        [
+          0.18327726791567375,
+          1.5348666666666668,
+          {
+            "before": 0.3079759690809642,
+            "after": 0.3160367671974461,
+            "heading_change_deg": 28.398848539476948,
+            "relative_speed_change": 0.02550588714080181,
+            "changed": true
+          }
+        ],
+        [
+          0.18327726791567375,
+          1.5348666666666668,
+          {
+            "before": 0.3079759690809642,
+            "after": 0.3160367671974461,
+            "heading_change_deg": 28.398848539476948,
+            "relative_speed_change": 0.02550588714080181,
+            "changed": true
+          }
+        ],
+        [
+          0.1894046441209959,
+          1.5682333333333334,
+          {
+            "before": 0.3108327141920438,
+            "after": 0.31656455945953554,
+            "heading_change_deg": 30.833683527782025,
+            "relative_speed_change": 0.018106402299984656,
+            "changed": true
+          }
+        ],
+        [
+          0.1894046441209959,
+          1.5682333333333334,
+          {
+            "before": 0.3108327141920438,
+            "after": 0.31656455945953554,
+            "heading_change_deg": 30.833683527782025,
+            "relative_speed_change": 0.018106402299984656,
+            "changed": true
+          }
+        ],
+        [
+          0.1894046441209959,
+          1.5682333333333334,
+          {
+            "before": 0.3108327141920438,
+            "after": 0.31656455945953554,
+            "heading_change_deg": 30.833683527782025,
+            "relative_speed_change": 0.018106402299984656,
+            "changed": true
+          }
+        ],
+        [
+          0.19223391131343656,
+          1.6016000000000001,
+          {
+            "before": 0.3120208432724771,
+            "after": 0.31714649499437425,
+            "heading_change_deg": 31.692983726077916,
+            "relative_speed_change": 0.0161617795018926,
+            "changed": true
+          }
+        ],
+        [
+          0.19223391131343656,
+          1.6016000000000001,
+          {
+            "before": 0.3120208432724771,
+            "after": 0.31714649499437425,
+            "heading_change_deg": 31.692983726077916,
+            "relative_speed_change": 0.0161617795018926,
+            "changed": true
+          }
+        ],
+        [
+          0.19223391131343656,
+          1.6016000000000001,
+          {
+            "before": 0.3120208432724771,
+            "after": 0.31714649499437425,
+            "heading_change_deg": 31.692983726077916,
+            "relative_speed_change": 0.0161617795018926,
+            "changed": true
+          }
+        ],
+        [
+          0.19600849579607915,
+          1.6349666666666667,
+          {
+            "before": 0.3155688287030037,
+            "after": 0.3121024381812931,
+            "heading_change_deg": 33.304305141432344,
+            "relative_speed_change": 0.010984578343677234,
+            "changed": true
+          }
+        ],
+        [
+          0.19600849579607915,
+          1.6349666666666667,
+          {
+            "before": 0.3155688287030037,
+            "after": 0.3121024381812931,
+            "heading_change_deg": 33.304305141432344,
+            "relative_speed_change": 0.010984578343677234,
+            "changed": true
+          }
+        ],
+        [
+          0.19600849579607915,
+          1.6349666666666667,
+          {
+            "before": 0.3155688287030037,
+            "after": 0.3121024381812931,
+            "heading_change_deg": 33.304305141432344,
+            "relative_speed_change": 0.010984578343677234,
+            "changed": true
+          }
+        ],
+        [
+          0.20774815538931835,
+          1.6683333333333334,
+          {
+            "before": 0.31676513214456176,
+            "after": 0.3105393381823325,
+            "heading_change_deg": 33.85689566030855,
+            "relative_speed_change": 0.01965429060982639,
+            "changed": true
+          }
+        ],
+        [
+          0.20774815538931835,
+          1.6683333333333334,
+          {
+            "before": 0.31676513214456176,
+            "after": 0.3105393381823325,
+            "heading_change_deg": 33.85689566030855,
+            "relative_speed_change": 0.01965429060982639,
+            "changed": true
+          }
+        ],
+        [
+          0.20774815538931835,
+          1.6683333333333334,
+          {
+            "before": 0.31676513214456176,
+            "after": 0.3105393381823325,
+            "heading_change_deg": 33.85689566030855,
+            "relative_speed_change": 0.01965429060982639,
+            "changed": true
+          }
+        ],
+        [
+          0.21748187060118157,
+          1.7017,
+          {
+            "before": 0.3168877852758455,
+            "after": 0.30360820260885574,
+            "heading_change_deg": 31.603609484241527,
+            "relative_speed_change": 0.0419062623553953,
+            "changed": true
+          }
+        ],
+        [
+          0.21748187060118157,
+          1.7017,
+          {
+            "before": 0.3168877852758455,
+            "after": 0.30360820260885574,
+            "heading_change_deg": 31.603609484241527,
+            "relative_speed_change": 0.0419062623553953,
+            "changed": true
+          }
+        ],
+        [
+          0.21748187060118157,
+          1.7017,
+          {
+            "before": 0.3168877852758455,
+            "after": 0.30360820260885574,
+            "heading_change_deg": 31.603609484241527,
+            "relative_speed_change": 0.0419062623553953,
+            "changed": true
+          }
+        ],
+        [
+          0.21895719644512024,
+          1.7350666666666668,
+          {
+            "before": 0.3167589708202742,
+            "after": 0.3013953517301582,
+            "heading_change_deg": 30.68183563846163,
+            "relative_speed_change": 0.0485025540092223,
+            "changed": true
+          }
+        ],
+        [
+          0.8068818031211527,
+          2.2022,
+          {
+            "before": 0.08006514990504501,
+            "after": 0.19939117889494903,
+            "heading_change_deg": 37.51738334089543,
+            "relative_speed_change": 0.5984518956717336,
+            "changed": true
+          }
+        ],
+        [
+          0.6344562335505384,
+          2.2689333333333335,
+          {
+            "before": 0.12073204354944793,
+            "after": 0.19582974701650882,
+            "heading_change_deg": 45.17488368530686,
+            "relative_speed_change": 0.3834846575210558,
+            "changed": true
+          }
+        ],
+        [
+          0.6344562335505384,
+          2.2689333333333335,
+          {
+            "before": 0.12073204354944793,
+            "after": 0.19582974701650882,
+            "heading_change_deg": 45.17488368530686,
+            "relative_speed_change": 0.3834846575210558,
+            "changed": true
+          }
+        ],
+        [
+          0.5556170713275316,
+          2.3023000000000002,
+          {
+            "before": 0.13441606988104401,
+            "after": 0.1881968977366697,
+            "heading_change_deg": 48.57266375551843,
+            "relative_speed_change": 0.2857689393524292,
+            "changed": true
+          }
+        ],
+        [
+          0.5556170713275316,
+          2.3023000000000002,
+          {
+            "before": 0.13441606988104401,
+            "after": 0.1881968977366697,
+            "heading_change_deg": 48.57266375551843,
+            "relative_speed_change": 0.2857689393524292,
+            "changed": true
+          }
+        ],
+        [
+          0.5556170713275316,
+          2.3023000000000002,
+          {
+            "before": 0.13441606988104401,
+            "after": 0.1881968977366697,
+            "heading_change_deg": 48.57266375551843,
+            "relative_speed_change": 0.2857689393524292,
+            "changed": true
+          }
+        ],
+        [
+          0.5559646277510979,
+          2.3356666666666666,
+          {
+            "before": 0.13992020105387357,
+            "after": 0.19161080106511108,
+            "heading_change_deg": 51.51526389333752,
+            "relative_speed_change": 0.26976871723255613,
+            "changed": true
+          }
+        ],
+        [
+          0.5559646277510979,
+          2.3356666666666666,
+          {
+            "before": 0.13992020105387357,
+            "after": 0.19161080106511108,
+            "heading_change_deg": 51.51526389333752,
+            "relative_speed_change": 0.26976871723255613,
+            "changed": true
+          }
+        ],
+        [
+          0.5909601608584403,
+          2.3690333333333333,
+          {
+            "before": 0.265393048678373,
+            "after": 0.17801573586365907,
+            "heading_change_deg": 47.11010001353256,
+            "relative_speed_change": 0.3292373830054816,
+            "changed": true
+          }
+        ],
+        [
+          0.5909601608584403,
+          2.3690333333333333,
+          {
+            "before": 0.265393048678373,
+            "after": 0.17801573586365907,
+            "heading_change_deg": 47.11010001353256,
+            "relative_speed_change": 0.3292373830054816,
+            "changed": true
+          }
+        ],
+        [
+          0.5909601608584403,
+          2.3690333333333333,
+          {
+            "before": 0.265393048678373,
+            "after": 0.17801573586365907,
+            "heading_change_deg": 47.11010001353256,
+            "relative_speed_change": 0.3292373830054816,
+            "changed": true
+          }
+        ],
+        [
+          0.5270202583831353,
+          2.4024,
+          {
+            "before": 0.2687550355034407,
+            "after": 0.19452807452437187,
+            "heading_change_deg": 45.149776213643534,
+            "relative_speed_change": 0.27618816830733783,
+            "changed": true
+          }
+        ],
+        [
+          0.5270202583831353,
+          2.4024,
+          {
+            "before": 0.2687550355034407,
+            "after": 0.19452807452437187,
+            "heading_change_deg": 45.149776213643534,
+            "relative_speed_change": 0.27618816830733783,
+            "changed": true
+          }
+        ],
+        [
+          0.5689246514765222,
+          2.435766666666667,
+          {
+            "before": 0.27928416123820654,
+            "after": 0.18733940142685404,
+            "heading_change_deg": 43.147592465307106,
+            "relative_speed_change": 0.32921580444703824,
+            "changed": true
+          }
+        ],
+        [
+          0.5689246514765222,
+          2.435766666666667,
+          {
+            "before": 0.27928416123820654,
+            "after": 0.18733940142685404,
+            "heading_change_deg": 43.147592465307106,
+            "relative_speed_change": 0.32921580444703824,
+            "changed": true
+          }
+        ],
+        [
+          0.5689246514765222,
+          2.435766666666667,
+          {
+            "before": 0.27928416123820654,
+            "after": 0.18733940142685404,
+            "heading_change_deg": 43.147592465307106,
+            "relative_speed_change": 0.32921580444703824,
+            "changed": true
+          }
+        ],
+        [
+          0.4519954777538166,
+          2.4691333333333336,
+          {
+            "before": 0.28552490650240697,
+            "after": 0.21365564806755002,
+            "heading_change_deg": 36.051522027797034,
+            "relative_speed_change": 0.2517092442660553,
+            "changed": true
+          }
+        ],
+        [
+          0.4519954777538166,
+          2.4691333333333336,
+          {
+            "before": 0.28552490650240697,
+            "after": 0.21365564806755002,
+            "heading_change_deg": 36.051522027797034,
+            "relative_speed_change": 0.2517092442660553,
+            "changed": true
+          }
+        ],
+        [
+          0.17803781378153724,
+          2.5025,
+          {
+            "before": 0.20124142869250003,
+            "after": 0.20471592737868669,
+            "heading_change_deg": 28.991793753910674,
+            "relative_speed_change": 0.01697229292647794,
+            "changed": true
+          }
+        ],
+        [
+          0.17803781378153724,
+          2.5025,
+          {
+            "before": 0.20124142869250003,
+            "after": 0.20471592737868669,
+            "heading_change_deg": 28.991793753910674,
+            "relative_speed_change": 0.01697229292647794,
+            "changed": true
+          }
+        ],
+        [
+          0.17803781378153724,
+          2.5025,
+          {
+            "before": 0.20124142869250003,
+            "after": 0.20471592737868669,
+            "heading_change_deg": 28.991793753910674,
+            "relative_speed_change": 0.01697229292647794,
+            "changed": true
+          }
+        ]
+      ],
+      "decision": "candidate",
+      "rejection_reasons": []
+    },
+    {
+      "pair_a": [
+        3,
+        15
+      ],
+      "pair_b": [
+        21
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        6
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        7,
+        16
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        4
+      ],
+      "pair_b": [
+        21
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        7,
+        16
+      ],
+      "interaction_interval_s": [
+        0.367,
+        0.4
+      ],
+      "overlap_observations": 3,
+      "max_box_iou": 0.401,
+      "approach_observed": false,
+      "movement_response_candidates": [],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window",
+        "No abrupt heading deflection or synchronized hard stop after interaction"
+      ]
+    },
+    {
+      "pair_a": [
+        6
+      ],
+      "pair_b": [
+        21
+      ],
+      "decision": "rejected",
+      "reason": "No plausible simultaneous vehicle-box interaction observed"
+    },
+    {
+      "pair_a": [
+        7,
+        16
+      ],
+      "pair_b": [
+        21
+      ],
+      "interaction_interval_s": [
+        3.937,
+        3.971
+      ],
+      "overlap_observations": 3,
+      "max_box_iou": 0.689,
+      "approach_observed": false,
+      "movement_response_candidates": [
+        [
+          1.1801126057934574,
+          3.937266666666667,
+          {
+            "before": 0.13144449852042606,
+            "after": 0.05210444453762872,
+            "heading_change_deg": 103.77205722980177,
+            "relative_speed_change": 0.6036011767390033,
+            "changed": true
+          }
+        ],
+        [
+          1.1801126057934574,
+          3.937266666666667,
+          {
+            "before": 0.13144449852042606,
+            "after": 0.05210444453762872,
+            "heading_change_deg": 103.77205722980177,
+            "relative_speed_change": 0.6036011767390033,
+            "changed": true
+          }
+        ],
+        [
+          1.2586659765801917,
+          3.9706333333333337,
+          {
+            "before": 0.1607423848594913,
+            "after": 0.05512783636995907,
+            "heading_change_deg": 108.29225928282898,
+            "relative_speed_change": 0.6570423138978085,
+            "changed": true
+          }
+        ]
+      ],
+      "decision": "rejected",
+      "rejection_reasons": [
+        "No decreasing inter-vehicle image-space separation before interaction window"
+      ]
+    }
+  ]
+}

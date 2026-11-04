@@ -1,0 +1,15 @@
+{
+  "events": [],
+  "frames": 300,
+  "duration": 10.01,
+  "tracks": 10,
+  "runtime": 70.78,
+  "model": "yolo11n.pt",
+  "device": "cpu",
+  "playback": "/media/579dfa9dcbd240838d66c2e359f39b2b/annotated.mp4",
+  "limitations": [
+    "Image-space screening only; not calibrated near-miss confirmation.",
+    "No TTC, PET, physical speed, damage or lane inference in this release.",
+    "Input limited to first five minutes; duration computed from frame count."
+  ]
+}

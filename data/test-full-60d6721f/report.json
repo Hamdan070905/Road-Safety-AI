@@ -1,0 +1,81 @@
+{
+  "analysis_version": 1,
+  "events": [
+    {
+      "id": "8255fb7d",
+      "type": "potential_conflict",
+      "timestamp": 0.6,
+      "participants": [
+        1,
+        2
+      ],
+      "participant_classes": [
+        2,
+        2
+      ],
+      "metrics": {
+        "ttc_s": 0.11715728752538115,
+        "ttc_unavailable_reason": null,
+        "minimum_predicted_clearance_m": 2.220446049250313e-15,
+        "time_to_closest_approach_s": 0.4000000000000003,
+        "pet_s": null,
+        "pet_unavailable_reason": "Conflict-area entry and exit occupancy intervals are not established",
+        "footprint_assumption": "Circular road-user footprints; configurable radius, approximate and not class-specific",
+        "uncertainty": "Constant velocity prediction; excludes turning, occlusion and identity switches"
+      },
+      "review": "pending",
+      "thumbnail": "/media/test-full-60d6721f/8255fb7d.jpg",
+      "reason": "Predicted footprint interaction from timestamped road-contact trajectories.",
+      "measurement_mode": "calibrated road plane (metres)",
+      "calibration_version": 1,
+      "configuration_version": "conflict-v1",
+      "measurement_quality": {
+        "track_ages_s": [
+          0.6000000000000001,
+          0.6000000000000001
+        ],
+        "track_gaps": [
+          0,
+          0
+        ],
+        "reliable_identities": true,
+        "uncertainty": "Constant velocity prediction; excludes turning, occlusion and identity switches"
+      },
+      "start_timestamp": 0.6,
+      "peak_timestamp": 0.6,
+      "end_timestamp": 0.6,
+      "start_timestamp_s": 0.6,
+      "end_timestamp_s": 0.6,
+      "clip": "/media/test-full-60d6721f/8255fb7d.mp4"
+    }
+  ],
+  "frames": 24,
+  "duration": 2.3000000000000003,
+  "timeline_origin_source_timestamp_s": 0.0,
+  "start_timestamp_s": 0.0,
+  "end_timestamp_s": 2.3000000000000003,
+  "tracks": 2,
+  "unique_passages": null,
+  "runtime": 0.14,
+  "model": "yolo11n.pt",
+  "device": "cpu",
+  "playback": "/media/test-full-60d6721f/annotated_raw.mp4",
+  "measurement_mode": "calibrated road plane (metres)",
+  "engine": "calibrated-footprint-v1",
+  "camera_mode": "fixed",
+  "calibration_version": 1,
+  "configuration_version": "conflict-v1",
+  "observation_interval": {
+    "start": 0.0,
+    "end": 2.3000000000000003,
+    "duration_s": 2.3000000000000003
+  },
+  "duplicate_recording_of": null,
+  "timestamp_aligned_overlay": false,
+  "limitations": [
+    "Planar road homography; lens distortion is not corrected.",
+    "Calibration residual is not independent ground-truth validation.",
+    "PET is reported only from observed sequential occupancy in configured shared conflict areas.",
+    "Variable-frame-rate output uses presentation timestamp deltas through FFmpeg when available; otherwise an explicitly untimed CFR preview is used."
+  ]
+}

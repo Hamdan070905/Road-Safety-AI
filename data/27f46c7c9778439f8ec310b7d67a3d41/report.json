@@ -1,0 +1,164 @@
+{
+  "analysis_version": 1,
+  "events": [
+    {
+      "id": "1c981e8f",
+      "type": "possible_collision",
+      "timestamp": 4.16,
+      "start_timestamp": 4.12,
+      "peak_timestamp": 4.16,
+      "end_timestamp": 4.6,
+      "participants": [
+        4,
+        12
+      ],
+      "participant_classes": [
+        2,
+        2
+      ],
+      "participant_class_names": [
+        "car",
+        "car"
+      ],
+      "reason": "Possible collision \u2014 review required. Observed vehicle-box interaction followed approach and an abrupt image-space movement change.",
+      "signals": {
+        "observed_box_overlap_iou": 0.099,
+        "box_overlap_at_peak_iou": 0.085,
+        "overlap_observations_near_contact": 10,
+        "approach_observed": true,
+        "approach_window_s": [
+          3.48,
+          4.0
+        ],
+        "post_interaction_movement_change": {
+          "before": 0.021420405131996032,
+          "after": 0.04604234236376339,
+          "heading_change_deg": 177.80203200177496,
+          "relative_speed_change": 0.5347672591728415,
+          "changed": true
+        },
+        "identity_fragments": {
+          "participant_a": [
+            4
+          ],
+          "participant_b": [
+            12
+          ]
+        }
+      },
+      "measurement_mode": "uncalibrated image-space collision screening",
+      "metrics": {
+        "ttc_s": null,
+        "ttc_unavailable_reason": "Collision candidate is based on observed interaction; physical timing/geometry unavailable",
+        "pet_s": null,
+        "pet_unavailable_reason": "PET requires calibrated shared-area occupancy",
+        "minimum_predicted_clearance_m": null
+      },
+      "measurement_quality": {
+        "uncertainty": "Image-space temporal screening only; overlap, identity fragmentation, and camera perspective require human review",
+        "reliable_identities": true
+      },
+      "review": "pending",
+      "configuration_version": "collision-screen-v1",
+      "thumbnail": "/media/27f46c7c9778439f8ec310b7d67a3d41/1c981e8f.jpg",
+      "start_timestamp_s": 4.12,
+      "end_timestamp_s": 4.6,
+      "clip": "/media/27f46c7c9778439f8ec310b7d67a3d41/1c981e8f.mp4"
+    },
+    {
+      "id": "159b51ca",
+      "type": "possible_collision",
+      "timestamp": 4.36,
+      "start_timestamp": 3.76,
+      "peak_timestamp": 4.36,
+      "end_timestamp": 4.44,
+      "participants": [
+        2,
+        5
+      ],
+      "participant_classes": [
+        2,
+        7
+      ],
+      "participant_class_names": [
+        "car",
+        "truck"
+      ],
+      "reason": "Possible collision \u2014 review required. Observed vehicle-box interaction followed approach and an abrupt image-space movement change.",
+      "signals": {
+        "observed_box_overlap_iou": 0.103,
+        "box_overlap_at_peak_iou": 0.086,
+        "overlap_observations_near_contact": 9,
+        "approach_observed": true,
+        "approach_window_s": [
+          3.0,
+          3.64
+        ],
+        "post_interaction_movement_change": {
+          "before": 0.03726711145651595,
+          "after": 0.02502528075655198,
+          "heading_change_deg": 175.8690307845333,
+          "relative_speed_change": 0.3284888530802285,
+          "changed": true
+        },
+        "identity_fragments": {
+          "participant_a": [
+            2
+          ],
+          "participant_b": [
+            5
+          ]
+        }
+      },
+      "measurement_mode": "uncalibrated image-space collision screening",
+      "metrics": {
+        "ttc_s": null,
+        "ttc_unavailable_reason": "Collision candidate is based on observed interaction; physical timing/geometry unavailable",
+        "pet_s": null,
+        "pet_unavailable_reason": "PET requires calibrated shared-area occupancy",
+        "minimum_predicted_clearance_m": null
+      },
+      "measurement_quality": {
+        "uncertainty": "Image-space temporal screening only; overlap, identity fragmentation, and camera perspective require human review",
+        "reliable_identities": true
+      },
+      "review": "pending",
+      "configuration_version": "collision-screen-v1",
+      "thumbnail": "/media/27f46c7c9778439f8ec310b7d67a3d41/159b51ca.jpg",
+      "start_timestamp_s": 3.76,
+      "end_timestamp_s": 4.44,
+      "clip": "/media/27f46c7c9778439f8ec310b7d67a3d41/159b51ca.mp4"
+    }
+  ],
+  "frames": 175,
+  "duration": 6.960000000000001,
+  "timeline_origin_source_timestamp_s": 0.0,
+  "start_timestamp_s": 0.0,
+  "end_timestamp_s": 6.960000000000001,
+  "tracks": 10,
+  "unique_passages": null,
+  "runtime": 59.05,
+  "model": "yolo11n.pt",
+  "device": "cpu",
+  "playback": "/media/27f46c7c9778439f8ec310b7d67a3d41/annotated.mp4",
+  "collision_diagnostics": "/media/27f46c7c9778439f8ec310b7d67a3d41/collision_diagnostics.json",
+  "measurement_mode": "uncalibrated image-space fallback",
+  "engine": "legacy-image-screen-v1",
+  "camera_mode": "fixed",
+  "calibration_version": null,
+  "configuration_version": "conflict-v1",
+  "movement_configuration_version": 0,
+  "observation_interval": {
+    "start": 0.0,
+    "end": 6.960000000000001,
+    "duration_s": 6.960000000000001
+  },
+  "duplicate_recording_of": null,
+  "timestamp_aligned_overlay": true,
+  "limitations": [
+    "Planar road homography; lens distortion is not corrected.",
+    "Calibration residual is not independent ground-truth validation.",
+    "PET is reported only from observed sequential occupancy in configured shared conflict areas.",
+    "Variable-frame-rate output uses presentation timestamp deltas through FFmpeg when available; otherwise an explicitly untimed CFR preview is used."
+  ]
+}

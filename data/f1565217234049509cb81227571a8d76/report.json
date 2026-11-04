@@ -1,0 +1,33 @@
+{
+  "analysis_version": 1,
+  "events": [],
+  "frames": 78,
+  "duration": 2.5666666666666664,
+  "timeline_origin_source_timestamp_s": -0.020247395833333334,
+  "start_timestamp_s": -0.020247395833333334,
+  "end_timestamp_s": 2.5464192708333333,
+  "tracks": 7,
+  "unique_passages": null,
+  "runtime": 4.72,
+  "model": "yolo11n.pt",
+  "device": "cpu",
+  "playback": "/media/f1565217234049509cb81227571a8d76/annotated.mp4",
+  "measurement_mode": "uncalibrated image-space fallback",
+  "engine": "legacy-image-screen-v1",
+  "camera_mode": "fixed",
+  "calibration_version": null,
+  "configuration_version": "conflict-v1",
+  "observation_interval": {
+    "start": -0.020247395833333334,
+    "end": 2.5464192708333333,
+    "duration_s": 2.5666666666666664
+  },
+  "duplicate_recording_of": null,
+  "timestamp_aligned_overlay": true,
+  "limitations": [
+    "Planar road homography; lens distortion is not corrected.",
+    "Calibration residual is not independent ground-truth validation.",
+    "PET is reported only from observed sequential occupancy in configured shared conflict areas.",
+    "Variable-frame-rate output uses presentation timestamp deltas through FFmpeg when available; otherwise an explicitly untimed CFR preview is used."
+  ]
+}
