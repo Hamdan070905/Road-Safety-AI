@@ -1,0 +1,61 @@
+{
+  "kind": "road_damage",
+  "name": "WhatsApp Video 2026-11-05 at 3.35.19 AM.mp4",
+  "status": "completed",
+  "input_hash": "0fcc045e604b49c9f04880cf5ee4f49a3e37c61be4c4e94e37e1bb24d1d1bca5",
+  "model_revision": "40684513b39331fc2b49f01123cc489ad5876624",
+  "weights_path": "D:\\roadguard-ai\\models\\road_damage\\best.pt",
+  "weights_sha256": "bcbaa230a4fce93c15cfd1dd4e6bb40050ce9099750ea66e270f00c10ecfdcc6",
+  "device": "cpu",
+  "runtime_s": 6.063,
+  "processing_settings": {
+    "confidence": 0.25,
+    "iou": 0.45,
+    "sample_interval_s": 1.0,
+    "classes": null
+  },
+  "sampled_frames": 25,
+  "sample_timestamps_s": [
+    0.0,
+    1.0,
+    2.0,
+    3.0000000000000004,
+    4.0,
+    5.0,
+    6.000000000000001,
+    7.000000000000001,
+    8.0,
+    9.0,
+    10.0,
+    11.000000000000002,
+    12.000000000000002,
+    13.000000000000002,
+    14.000000000000002,
+    15.000000000000002,
+    16.0,
+    17.0,
+    18.0,
+    19.0,
+    20.0,
+    21.0,
+    22.000000000000004,
+    23.000000000000004,
+    24.000000000000004
+  ],
+  "observation_coverage_s": 24.32,
+  "class_map": {
+    "0": "longitudinal_crack",
+    "1": "transverse_crack",
+    "2": "alligator_crack",
+    "3": "pothole"
+  },
+  "observations": [],
+  "unique_candidate_clusters": 0,
+  "cluster_count_warning": "Candidates are conservative short-window image associations and are not globally unique pothole/defect counts.",
+  "playback": "/media/c1822e446ee246fda81e66415cc336a2/annotated.mp4",
+  "preview": "/media/c1822e446ee246fda81e66415cc336a2/preview.jpg",
+  "limitations": [
+    "No physical dimensions, depth, severity, cause, accident risk or road-wide safety inferred.",
+    "Model outputs require human inspection."
+  ]
+}

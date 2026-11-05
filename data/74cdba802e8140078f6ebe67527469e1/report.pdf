@@ -1,0 +1,31 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1780 >>
+stream
+BT /F1 10 Tf 48 790 Td 14 TL (RoadGuard road_lanes report) Tj T* (Input: forward_highway.mp4) Tj T* (Status: completed) Tj T* (Model revision: V0.0.1 / release commit 8e69e4c) Tj T* (Device: cpu | Runtime: 28.109 seconds) Tj T* (Input SHA-256: ac81100d9310bd4e9c02bc0b13b6492781d009742ced347766b2601be3c44ad4) Tj T* (Weights SHA-256: f2a8c8374203ae3e67ff9c184e931f763957de92a993b23269e4e721627f1f8c) Tj T* (Settings: {"opacity":0.45,"sample_interval_s":1.0,"output_width":1280}) Tj T* (Observations: 22) Tj T* (0.00s segmentation_masks conf=n/a review=uncertain) Tj T* (1.00s segmentation_masks conf=n/a review=pending) Tj T* (2.00s segmentation_masks conf=n/a review=pending) Tj T* (3.00s segmentation_masks conf=n/a review=pending) Tj T* (4.00s segmentation_masks conf=n/a review=pending) Tj T* (5.00s segmentation_masks conf=n/a review=pending) Tj T* (6.00s segmentation_masks conf=n/a review=pending) Tj T* (7.00s segmentation_masks conf=n/a review=pending) Tj T* (8.00s segmentation_masks conf=n/a review=pending) Tj T* (9.00s segmentation_masks conf=n/a review=pending) Tj T* (10.00s segmentation_masks conf=n/a review=pending) Tj T* (11.00s segmentation_masks conf=n/a review=pending) Tj T* (12.00s segmentation_masks conf=n/a review=pending) Tj T* (13.00s segmentation_masks conf=n/a review=pending) Tj T* (14.00s segmentation_masks conf=n/a review=pending) Tj T* (15.00s segmentation_masks conf=n/a review=pending) Tj T* (16.00s segmentation_masks conf=n/a review=pending) Tj T* (17.00s segmentation_masks conf=n/a review=pending) Tj T* (18.00s segmentation_masks conf=n/a review=pending) Tj T* (19.00s segmentation_masks conf=n/a review=pending) Tj T* (20.00s segmentation_masks conf=n/a review=pending) Tj T* (21.00s segmentation_masks conf=n/a review=pending) Tj T* ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+2143
+%%EOF

@@ -1,0 +1,94 @@
+{
+  "kind": "road_damage",
+  "name": "WhatsApp Video 2026-11-05 at 3.35.20 AM.mp4",
+  "status": "completed",
+  "input_hash": "2eba29ef8d5f51ea4708c69b0508242a631075e267ff2ca591a183f6a62f4c52",
+  "model_revision": "40684513b39331fc2b49f01123cc489ad5876624",
+  "weights_path": "D:\\roadguard-ai\\models\\road_damage\\best.pt",
+  "weights_sha256": "bcbaa230a4fce93c15cfd1dd4e6bb40050ce9099750ea66e270f00c10ecfdcc6",
+  "device": "cpu",
+  "runtime_s": 2.469,
+  "processing_settings": {
+    "confidence": 0.25,
+    "iou": 0.45,
+    "sample_interval_s": 1.0,
+    "classes": null
+  },
+  "sampled_frames": 9,
+  "sample_timestamps_s": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.000000000000001,
+    8.0
+  ],
+  "observation_coverage_s": 8.08,
+  "class_map": {
+    "0": "longitudinal_crack",
+    "1": "transverse_crack",
+    "2": "alligator_crack",
+    "3": "pothole"
+  },
+  "observations": [
+    {
+      "id": "4ef489251d",
+      "timestamp_s": 4.0,
+      "class_id": 3,
+      "class_name": "pothole",
+      "confidence": 0.38902,
+      "bbox": [
+        208.87,
+        243.54,
+        275.04,
+        268.95
+      ],
+      "evidence": "/media/5bc5f507c43544f3863adc908b2dfa52/evidence_4ef489251d.jpg",
+      "thumbnail": "/media/5bc5f507c43544f3863adc908b2dfa52/evidence_4ef489251d.jpg",
+      "candidate_id": "D00001"
+    },
+    {
+      "id": "d2f6baa35c",
+      "timestamp_s": 7.0,
+      "class_id": 3,
+      "class_name": "pothole",
+      "confidence": 0.37253,
+      "bbox": [
+        333.55,
+        236.36,
+        383.84,
+        253.49
+      ],
+      "evidence": "/media/5bc5f507c43544f3863adc908b2dfa52/evidence_d2f6baa35c.jpg",
+      "thumbnail": "/media/5bc5f507c43544f3863adc908b2dfa52/evidence_d2f6baa35c.jpg",
+      "candidate_id": "D00002"
+    },
+    {
+      "id": "c6949e29ee",
+      "timestamp_s": 7.0,
+      "class_id": 3,
+      "class_name": "pothole",
+      "confidence": 0.27208,
+      "bbox": [
+        379.05,
+        215.76,
+        436.0,
+        236.66
+      ],
+      "evidence": "/media/5bc5f507c43544f3863adc908b2dfa52/evidence_c6949e29ee.jpg",
+      "thumbnail": "/media/5bc5f507c43544f3863adc908b2dfa52/evidence_c6949e29ee.jpg",
+      "candidate_id": "D00003"
+    }
+  ],
+  "unique_candidate_clusters": 3,
+  "cluster_count_warning": "Candidates are conservative short-window image associations and are not globally unique pothole/defect counts.",
+  "playback": "/media/5bc5f507c43544f3863adc908b2dfa52/annotated.mp4",
+  "preview": "/media/5bc5f507c43544f3863adc908b2dfa52/preview.jpg",
+  "limitations": [
+    "No physical dimensions, depth, severity, cause, accident risk or road-wide safety inferred.",
+    "Model outputs require human inspection."
+  ]
+}

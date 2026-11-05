@@ -1,0 +1,119 @@
+{
+  "kind": "road_damage",
+  "name": "WhatsApp Video 2026-11-05 at 3.35.20 AM.mp4",
+  "status": "completed",
+  "input_hash": "2eba29ef8d5f51ea4708c69b0508242a631075e267ff2ca591a183f6a62f4c52",
+  "model_revision": "40684513b39331fc2b49f01123cc489ad5876624",
+  "weights_path": "D:\\roadguard-ai\\models\\road_damage\\best.pt",
+  "weights_sha256": "bcbaa230a4fce93c15cfd1dd4e6bb40050ce9099750ea66e270f00c10ecfdcc6",
+  "device": "cpu",
+  "runtime_s": 20.625,
+  "processing_settings": {
+    "confidence": 0.2,
+    "iou": 0.45,
+    "sample_interval_s": 1.0,
+    "classes": null,
+    "imgsz": 640,
+    "preset": "balanced",
+    "tiled_inference": false,
+    "per_class_confidence": {
+      "pothole": 0.18,
+      "longitudinal_crack": 0.25,
+      "transverse_crack": 0.25,
+      "alligator_crack": 0.25
+    }
+  },
+  "sampled_frames": 9,
+  "sample_timestamps_s": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.000000000000001,
+    8.0
+  ],
+  "observation_coverage_s": 8.08,
+  "class_map": {
+    "0": "longitudinal_crack",
+    "1": "transverse_crack",
+    "2": "alligator_crack",
+    "3": "pothole"
+  },
+  "observations": [
+    {
+      "id": "adc52809a3",
+      "timestamp_s": 4.0,
+      "class_id": 3,
+      "class_name": "pothole",
+      "confidence": 0.38902,
+      "bbox": [
+        208.87,
+        243.54,
+        275.04,
+        268.95
+      ],
+      "evidence": "/media/c7d4bd265c4e49af9cc564578702262b/evidence_adc52809a3.jpg",
+      "thumbnail": "/media/c7d4bd265c4e49af9cc564578702262b/evidence_adc52809a3.jpg",
+      "candidate_id": "D00001"
+    },
+    {
+      "id": "fcbf6e3d1b",
+      "timestamp_s": 4.0,
+      "class_id": 3,
+      "class_name": "pothole",
+      "confidence": 0.21596,
+      "bbox": [
+        348.2,
+        229.24,
+        408.95,
+        246.66
+      ],
+      "evidence": "/media/c7d4bd265c4e49af9cc564578702262b/evidence_fcbf6e3d1b.jpg",
+      "thumbnail": "/media/c7d4bd265c4e49af9cc564578702262b/evidence_fcbf6e3d1b.jpg",
+      "candidate_id": "D00002"
+    },
+    {
+      "id": "619d5ae6ab",
+      "timestamp_s": 7.0,
+      "class_id": 3,
+      "class_name": "pothole",
+      "confidence": 0.37253,
+      "bbox": [
+        333.55,
+        236.36,
+        383.84,
+        253.49
+      ],
+      "evidence": "/media/c7d4bd265c4e49af9cc564578702262b/evidence_619d5ae6ab.jpg",
+      "thumbnail": "/media/c7d4bd265c4e49af9cc564578702262b/evidence_619d5ae6ab.jpg",
+      "candidate_id": "D00003"
+    },
+    {
+      "id": "7afa7fd479",
+      "timestamp_s": 7.0,
+      "class_id": 3,
+      "class_name": "pothole",
+      "confidence": 0.27208,
+      "bbox": [
+        379.05,
+        215.76,
+        436.0,
+        236.66
+      ],
+      "evidence": "/media/c7d4bd265c4e49af9cc564578702262b/evidence_7afa7fd479.jpg",
+      "thumbnail": "/media/c7d4bd265c4e49af9cc564578702262b/evidence_7afa7fd479.jpg",
+      "candidate_id": "D00004"
+    }
+  ],
+  "unique_candidate_clusters": 4,
+  "cluster_count_warning": "Candidates are conservative short-window image associations and are not globally unique pothole/defect counts.",
+  "playback": "/media/c7d4bd265c4e49af9cc564578702262b/annotated.mp4",
+  "preview": "/media/c7d4bd265c4e49af9cc564578702262b/preview.jpg",
+  "limitations": [
+    "No physical dimensions, depth, severity, cause, accident risk or road-wide safety inferred.",
+    "Model outputs require human inspection."
+  ]
+}

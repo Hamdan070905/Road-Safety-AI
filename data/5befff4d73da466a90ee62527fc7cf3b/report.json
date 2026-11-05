@@ -1,0 +1,233 @@
+{
+  "kind": "road_damage",
+  "name": "forward_highway.mp4",
+  "status": "completed",
+  "input_hash": "ac81100d9310bd4e9c02bc0b13b6492781d009742ced347766b2601be3c44ad4",
+  "model_revision": "40684513b39331fc2b49f01123cc489ad5876624",
+  "weights_path": "D:\\roadguard-ai\\models\\road_damage\\best.pt",
+  "weights_sha256": "bcbaa230a4fce93c15cfd1dd4e6bb40050ce9099750ea66e270f00c10ecfdcc6",
+  "device": "cpu",
+  "runtime_s": 27.0,
+  "processing_settings": {
+    "confidence": 0.25,
+    "iou": 0.45,
+    "sample_interval_s": 1.0,
+    "classes": null
+  },
+  "sampled_frames": 22,
+  "sample_timestamps_s": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    13.0,
+    14.0,
+    15.0,
+    16.0,
+    17.0,
+    18.0,
+    19.0,
+    20.0,
+    21.0
+  ],
+  "observation_coverage_s": 21.52,
+  "observations": [
+    {
+      "id": "a4cb2d8e1f",
+      "timestamp_s": 0.0,
+      "class_id": 0,
+      "class_name": "longitudinal_crack",
+      "confidence": 0.75993,
+      "bbox": [
+        494.98,
+        701.06,
+        649.97,
+        1074.92
+      ],
+      "evidence": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_a4cb2d8e1f.jpg",
+      "thumbnail": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_a4cb2d8e1f.jpg",
+      "candidate_id": "D00001",
+      "review": "uncertain",
+      "review_note": "API workflow verification"
+    },
+    {
+      "id": "8721c61672",
+      "timestamp_s": 1.0,
+      "class_id": 0,
+      "class_name": "longitudinal_crack",
+      "confidence": 0.40628,
+      "bbox": [
+        491.49,
+        754.88,
+        634.58,
+        1077.93
+      ],
+      "evidence": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_8721c61672.jpg",
+      "thumbnail": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_8721c61672.jpg",
+      "candidate_id": "D00001",
+      "review": "pending",
+      "review_note": ""
+    },
+    {
+      "id": "a949c6801a",
+      "timestamp_s": 3.0,
+      "class_id": 0,
+      "class_name": "longitudinal_crack",
+      "confidence": 0.30816,
+      "bbox": [
+        349.7,
+        810.55,
+        444.69,
+        945.59
+      ],
+      "evidence": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_a949c6801a.jpg",
+      "thumbnail": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_a949c6801a.jpg",
+      "candidate_id": "D00002",
+      "review": "pending",
+      "review_note": ""
+    },
+    {
+      "id": "c9488ccd06",
+      "timestamp_s": 4.0,
+      "class_id": 0,
+      "class_name": "longitudinal_crack",
+      "confidence": 0.29239,
+      "bbox": [
+        255.64,
+        812.73,
+        443.23,
+        1059.91
+      ],
+      "evidence": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_c9488ccd06.jpg",
+      "thumbnail": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_c9488ccd06.jpg",
+      "candidate_id": "D00002",
+      "review": "pending",
+      "review_note": ""
+    },
+    {
+      "id": "bd005250b2",
+      "timestamp_s": 8.0,
+      "class_id": 0,
+      "class_name": "longitudinal_crack",
+      "confidence": 0.27189,
+      "bbox": [
+        487.18,
+        679.21,
+        660.99,
+        1078.88
+      ],
+      "evidence": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_bd005250b2.jpg",
+      "thumbnail": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_bd005250b2.jpg",
+      "candidate_id": "D00003",
+      "review": "pending",
+      "review_note": ""
+    },
+    {
+      "id": "05e3bccc66",
+      "timestamp_s": 14.0,
+      "class_id": 0,
+      "class_name": "longitudinal_crack",
+      "confidence": 0.436,
+      "bbox": [
+        491.51,
+        694.89,
+        655.73,
+        1076.63
+      ],
+      "evidence": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_05e3bccc66.jpg",
+      "thumbnail": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_05e3bccc66.jpg",
+      "candidate_id": "D00004",
+      "review": "pending",
+      "review_note": ""
+    },
+    {
+      "id": "3d0daf9d96",
+      "timestamp_s": 16.0,
+      "class_id": 0,
+      "class_name": "longitudinal_crack",
+      "confidence": 0.50803,
+      "bbox": [
+        490.0,
+        691.79,
+        656.03,
+        1078.12
+      ],
+      "evidence": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_3d0daf9d96.jpg",
+      "thumbnail": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_3d0daf9d96.jpg",
+      "candidate_id": "D00004",
+      "review": "pending",
+      "review_note": ""
+    },
+    {
+      "id": "e5976c03af",
+      "timestamp_s": 17.0,
+      "class_id": 0,
+      "class_name": "longitudinal_crack",
+      "confidence": 0.41264,
+      "bbox": [
+        489.36,
+        720.38,
+        648.37,
+        1078.83
+      ],
+      "evidence": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_e5976c03af.jpg",
+      "thumbnail": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_e5976c03af.jpg",
+      "candidate_id": "D00004",
+      "review": "pending",
+      "review_note": ""
+    },
+    {
+      "id": "fb57196b34",
+      "timestamp_s": 20.0,
+      "class_id": 0,
+      "class_name": "longitudinal_crack",
+      "confidence": 0.52676,
+      "bbox": [
+        489.07,
+        767.09,
+        627.56,
+        1078.15
+      ],
+      "evidence": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_fb57196b34.jpg",
+      "thumbnail": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_fb57196b34.jpg",
+      "candidate_id": "D00005",
+      "review": "pending",
+      "review_note": ""
+    },
+    {
+      "id": "dc203f12de",
+      "timestamp_s": 20.0,
+      "class_id": 0,
+      "class_name": "longitudinal_crack",
+      "confidence": 0.42636,
+      "bbox": [
+        327.09,
+        810.18,
+        445.73,
+        976.14
+      ],
+      "evidence": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_dc203f12de.jpg",
+      "thumbnail": "/media/5befff4d73da466a90ee62527fc7cf3b/evidence_dc203f12de.jpg",
+      "candidate_id": "D00006",
+      "review": "pending",
+      "review_note": ""
+    }
+  ],
+  "unique_candidate_clusters": 6,
+  "cluster_count_warning": "Candidates are conservative short-window image associations and are not globally unique pothole/defect counts.",
+  "playback": "/media/5befff4d73da466a90ee62527fc7cf3b/annotated.mp4",
+  "preview": "/media/5befff4d73da466a90ee62527fc7cf3b/preview.jpg",
+  "limitations": [
+    "No physical dimensions, depth, severity, cause, accident risk or road-wide safety inferred.",
+    "Model outputs require human inspection."
+  ]
+}

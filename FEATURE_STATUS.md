@@ -20,7 +20,11 @@ Checked against repository and executed workflows on 5 November 2026. “Execute
 | Passage counts and queue observations | Implemented but unverified | Unique line-crossing counts exist; full queue analytics and identity-switch robustness are incomplete. |
 | Location summaries and heatmaps | Implemented but unverified | Stored results feed summaries; no fabricated map markers. Geospatial heatmap is not implemented. |
 | Fixed/moving camera separation | Implemented and executed successfully | Moving-camera mode gates metric/collision screening; no validated ego-motion compensation. |
-| YOLOPv2 lane model / road damage | Blocked | No verified compatible weights/class mapping/license and inference package in workspace. |
+| Road Damage Detection (RDD2022 YOLOv8m) | Implemented and executed successfully | Pinned AGPL checkpoint loaded. Real highway video API worker: 22 samples, 10 frame detections, 6 candidate clusters, playable annotated output, persisted review and PDF/JSON. Live single-image API also completed with model-provided class map. Visually inspected false positive over lane paint; no labeled damaged-road positives. |
+| Road & Lane Segmentation (YOLOPv2) | Implemented and executed successfully | Pinned MIT TorchScript checkpoint loaded with documented preprocessing/decoding. Real highway video API worker: 22 samples, source-duration-aligned output, masks/overlays, review and exports. Weak/absent marking footage unavailable. |
 | Driver monitoring, helmet, red-light violations | Missing | Require dedicated models/inputs. |
 | Real-video accuracy evaluation | Blocked | No manual event annotations or independent ground measurements. Precision, recall, false alarms/minute and physical metric accuracy are Not evaluated. |
-| Browser workflow and responsive visual QA | Blocked | Browser access host unavailable; API workflow verified, browser upload-to-export steps not exercised. |
+| Infrastructure browser workflows | Implemented but unverified | Browser access host unavailable; API workflows exercised, browser interactions/mobile layout not visually tested. |
+
+
+

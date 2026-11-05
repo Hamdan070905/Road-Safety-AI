@@ -1,0 +1,37 @@
+{
+  "kind": "road_damage",
+  "name": "intersection.jpg",
+  "status": "completed",
+  "input_hash": "38ae53b9d2e0a71993406bcfd29df1a9f6198b89dcb54a90887d47bbff80a58e",
+  "model_revision": "40684513b39331fc2b49f01123cc489ad5876624",
+  "weights_path": "D:\\roadguard-ai\\models\\road_damage\\best.pt",
+  "weights_sha256": "bcbaa230a4fce93c15cfd1dd4e6bb40050ce9099750ea66e270f00c10ecfdcc6",
+  "device": "cpu",
+  "runtime_s": 1.5,
+  "processing_settings": {
+    "confidence": 0.25,
+    "iou": 0.45,
+    "sample_interval_s": 1.0,
+    "classes": null
+  },
+  "sampled_frames": 1,
+  "sample_timestamps_s": [
+    0.0
+  ],
+  "observation_coverage_s": null,
+  "class_map": {
+    "0": "longitudinal_crack",
+    "1": "transverse_crack",
+    "2": "alligator_crack",
+    "3": "pothole"
+  },
+  "observations": [],
+  "unique_candidate_clusters": 0,
+  "cluster_count_warning": "Candidates are conservative short-window image associations and are not globally unique pothole/defect counts.",
+  "playback": "/media/75ffdf4d19fd489c90f3cb43cc53ad2b/preview.jpg",
+  "preview": "/media/75ffdf4d19fd489c90f3cb43cc53ad2b/preview.jpg",
+  "limitations": [
+    "No physical dimensions, depth, severity, cause, accident risk or road-wide safety inferred.",
+    "Model outputs require human inspection."
+  ]
+}

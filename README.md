@@ -48,3 +48,21 @@ To launch without reinstalling dependencies into the existing Python 3.12 enviro
 ```
 
 Open `http://127.0.0.1:8000`. Upload a video, select its camera mode, and wait for completion. For fixed-camera metric screening, open Calibration, select the recording, load a source frame, click distributed road points, enter independently measured ground coordinates in metres, save the calibration and analysis polygon, and reanalyze. Inspect a candidate from the event list, save a review with an optional note, refresh to confirm persistence, then export JSON or PDF from the analysis workspace. With no candidates, the valid result is an empty event list.
+
+## Independent infrastructure sections
+
+The left navigation includes **Road Damage**, **Road & Lanes**, and **Model Status**. These use separate `/api/road-damage/...` and `/api/road-lanes/...` job routes, tables, adapters, result JSON, review records, and reports. Upload accepts JPG, PNG, WEBP and supported video files up to 200 MB; video analysis is capped at five minutes and sampled incrementally. Infrastructure jobs share the one-worker executor to limit CPU contention, but the existing collision worker never loads either optional model.
+
+Road Damage uses the pinned RDD2022 YOLOv8m weights and model-provided class names; confidence, NMS IoU, class IDs, and sample interval are adjustable. Timestamped frame observations remain distinct from conservative, short-window image-space candidate clusters. Counts are not globally unique defect totals. Review notes persist and JSON/PDF reflect current review values.
+
+Road & Lanes uses the official YOLOPv2 TorchScript checkpoint independently. The viewer compares original and annotated video, and exposes drivable-area and lane-marking masks with independent visibility/opacity controls. Masks use the official preprocessing/decoding crop and are restored to source-frame dimensions. Segmentation has no collision-tracker connection.
+
+Model Status reports checkpoint readiness, failure reason, revision and post-inference checksum. These tools do not infer pothole depth/severity, assign causes, estimate accident risk, detect unsafe lane changes, or score road safety. YOLOv8m upstream RDD2022 metrics are upstream-reported only, not application accuracy.
+
+Download optional weights once into the local cache:
+
+```powershell
+.venv312\Scripts\python.exe tools\fetch_optional_models.py --model all
+```
+
+The RDD model is AGPL-3.0; YOLOPv2 is MIT. Review the respective model/data terms before redistribution. See [MODEL_MANIFEST.md](MODEL_MANIFEST.md) for revisions, classes, checksums, and sources.

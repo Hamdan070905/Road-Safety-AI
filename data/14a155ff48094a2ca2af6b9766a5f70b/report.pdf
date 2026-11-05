@@ -1,0 +1,31 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 604 >>
+stream
+BT /F1 10 Tf 48 790 Td 14 TL (RoadGuard road_damage report) Tj T* (Input: WhatsApp Video 2026-11-05 at 3.35.19 AM.mp4) Tj T* (Status: completed) Tj T* (Model revision: 40684513b39331fc2b49f01123cc489ad5876624) Tj T* (Device: cpu | Runtime: 45.64 seconds) Tj T* (Input SHA-256: 0fcc045e604b49c9f04880cf5ee4f49a3e37c61be4c4e94e37e1bb24d1d1bca5) Tj T* (Weights SHA-256: bcbaa230a4fce93c15cfd1dd4e6bb40050ce9099750ea66e270f00c10ecfdcc6) Tj T* (Settings: {"confidence":0.2,"iou":0.45,"sample_interval_s":1.0,"classes":null,"imgsz":640,"preset":"balanced","tiled_inference":fa) Tj T* (Observations: 0) Tj T* ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+966
+%%EOF

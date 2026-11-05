@@ -1,0 +1,31 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1144 >>
+stream
+BT /F1 10 Tf 48 790 Td 14 TL (RoadGuard road_damage report) Tj T* (Input: forward_highway.mp4) Tj T* (Status: completed) Tj T* (Model revision: 40684513b39331fc2b49f01123cc489ad5876624) Tj T* (Device: cpu | Runtime: 17.562 seconds) Tj T* (Input SHA-256: ac81100d9310bd4e9c02bc0b13b6492781d009742ced347766b2601be3c44ad4) Tj T* (Weights SHA-256: bcbaa230a4fce93c15cfd1dd4e6bb40050ce9099750ea66e270f00c10ecfdcc6) Tj T* (Settings: {"confidence":0.25,"iou":0.45,"sample_interval_s":1.0,"classes":null}) Tj T* (Observations: 10) Tj T* (0.00s longitudinal_crack conf=0.75993 review=pending) Tj T* (1.00s longitudinal_crack conf=0.40628 review=pending) Tj T* (3.00s longitudinal_crack conf=0.30816 review=pending) Tj T* (4.00s longitudinal_crack conf=0.29239 review=pending) Tj T* (8.00s longitudinal_crack conf=0.27189 review=pending) Tj T* (14.00s longitudinal_crack conf=0.436 review=pending) Tj T* (16.00s longitudinal_crack conf=0.50803 review=pending) Tj T* (17.00s longitudinal_crack conf=0.41264 review=pending) Tj T* (20.00s longitudinal_crack conf=0.52676 review=pending) Tj T* (20.00s longitudinal_crack conf=0.42636 review=pending) Tj T* ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+1507
+%%EOF

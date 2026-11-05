@@ -1,12 +1,27 @@
 ﻿# Known limitations
 
-- Collision findings are conservative image-space screening candidates. They are labeled “Possible collision — review required”; only a human review may confirm one. They are not a dedicated accident-recognition model and can miss contact or flag perspective overlap. Generic YOLO weights have no accident class.
-- The supplied apparent interaction includes an ID fragment (3 to 15); participant identity reliability is false and the candidate requires human inspection. Fragment grouping is conservative and cannot establish physical identity.
-- No held-out annotated footage or independent measurements exist. Precision, recall, false alarms per minute, duplicate rate and physical metric accuracy are Not evaluated. The development clip is not evaluation evidence.
-- Image-space mode has no physical distance, speed, acceleration, TTC, PET or clearance. TTC is time to predicted closest approach under assumptions, not collision. PET needs observed shared conflict-area occupancy.
-- Metric analysis requires a valid surveyed fixed-camera calibration. Calibration is planar, depends on user points and does not correct lens distortion or independently validate geometry. Fixed homography is not applied to moving cameras; stabilization alone does not recover physical trajectories.
-- Wrong-way, stopped-vehicle, blocked-crossing, speeding and sudden-deceleration candidate logic/configuration is covered by synthetic tests only. Queue suppression is limited context logic, not a full traffic queue classifier. Speed/deceleration remain unavailable without valid calibrated geometry and valid timing.
-- Counts depend on track continuity and may be affected by ID switches; comprehensive queue observations are incomplete. Location summaries are descriptive and are withheld where exposure is insufficient; no coordinate map/heatmap is provided without real coordinates.
-- Browser automation host was unavailable. Browser upload/review/refresh/export flow and responsive desktop/mobile layout have not been visually exercised, despite API checks and frontend syntax validation.
-- YOLOPv2 and road-damage models are not integrated because verified compatible weights, class mapping, license and inference were unavailable. Driver monitoring, helmet and red-light capabilities require dedicated inputs/models.
-- Uncertain contact is not a collision confirmation; collisions and near-misses are distinct categories. No automatic fault assignment or crash probability is produced.
+## Collision/near-miss
+
+- Collision findings remain image-space screening candidates, not contact confirmation. They need human review and no real-world accuracy evaluation has been performed.
+- Metric TTC/PET/speed require surveyed fixed-camera calibration and valid timing; moving dashcam remains nonmetric. No crash probability or fault assignment is produced.
+
+## Road damage
+
+- RDD2022 detects only longitudinal crack, transverse crack, alligator crack and pothole boxes. Thin cracks, domain shift, road repairs, shadows and unseen categories can cause misses or false detections.
+- In the available normal-looking highway clip the API returned 10 sampled-frame detections grouped into six conservative candidates; visual inspection found a longitudinal-crack box over a painted lane marking. This is a visible false-positive example, not a precision estimate. No positive damaged-road footage with labels was found; application recall is unvalidated.
+- Candidate association uses same-class, short-gap image proximity. Moving viewpoint, long occlusion, perspective, or repeated passes make global defect counts unreliable. Candidate clusters are not pothole counts or severity scores.
+- No physical width/depth, engineering severity, accident cause/risk or road-wide safety is inferred. Detector confidence is not severity.
+- The model weights are AGPL-3.0; review license and upstream dataset terms before redistribution.
+
+## Road and lane segmentation
+
+- YOLOPv2 was verified on clear forward-facing highway footage. The weak/absent-marking condition is unvalidated because no suitable real clip was available. Lane predictions can be absent or false; the overlay is not safe lane-change detection.
+- Model domain is driving-scene video. Strongly different camera placement, fisheye views, side-looking fixed cameras, poor weather/night and unusual markings may reduce reliability. Drivable area is not a road-safety score.
+- Segmentation masks are sampled at configured intervals; playback holds each sampled overlay until the next sample to preserve source duration. Intermediate frames do not have fresh inference.
+- CPU inference is relatively slow (about 17.6 s RDD and 28.1 s YOLOPv2 for this 21.52 s source on this machine). No FPS benchmark is claimed.
+
+## Application validation
+
+- Browser automation host was unavailable; responsive browser layout and real user browser controls were not visually tested. API workflows and downloadable output endpoints were exercised.
+- No labeled damaged/normal test split or weak/clear marking evaluation dataset is available. Accuracy metrics are not evaluated.
+- Driver monitoring, helmets, red-light violations and pothole depth remain outside these modules.

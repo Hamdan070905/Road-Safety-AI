@@ -316,7 +316,7 @@ def health():
         import torch
         device='cuda' if torch.cuda.is_available() else 'cpu'
     except ImportError: device='cpu'
-    return {'status':'ok','detector_installed':importlib.util.find_spec('ultralytics') is not None,'model':os.getenv('ROADGUARD_MODEL','yolo11n.pt'),'device':device,'mode':'calibrated footprint engine when a valid fixed-camera calibration is selected; otherwise labeled image-space screening','collision_screening':'possible-collision candidates from temporal image-space evidence; review required','movement_risks':'wrong-way, stopped vehicle, blocked crossing, speeding, and sudden deceleration are configurable; metric speed requires valid fixed-camera calibration','moving_camera':'experimental; metric measurements unavailable','road_damage':'not integrated','lane_segmentation':'not integrated'}
+    return {'status':'ok','detector_installed':importlib.util.find_spec('ultralytics') is not None,'model':os.getenv('ROADGUARD_MODEL','yolo11n.pt'),'device':device,'mode':'calibrated footprint engine when a valid fixed-camera calibration is selected; otherwise labeled image-space screening','collision_screening':'possible-collision candidates from temporal image-space evidence; review required','movement_risks':'wrong-way, stopped vehicle, blocked crossing, speeding, and sudden deceleration are configurable; metric speed requires valid fixed-camera calibration','moving_camera':'experimental; metric measurements unavailable','road_damage':'Independent job section; checkpoint not installed or inference unavailable unless explicitly reported by /api/model-status','lane_segmentation':'Independent YOLOPv2 job section; checkpoint not installed or inference unavailable unless explicitly reported by /api/model-status'}
 
 @app.get('/api/jobs')
 def jobs():
@@ -544,9 +544,16 @@ def analysis_versions(j:str):
 
 @app.get('/media/{j}/{name}')
 def media(j:str,name:str):
-    getjob(j)
+    try: getjob(j)
+    except HTTPException as error:
+        if error.status_code!=404: raise
+        from .modules.jobs import getjob as get_module_job
+        get_module_job(j)
     if Path(name).name!=name or name not in ['input.mp4','annotated.mp4','annotated_raw.mp4','tracks.jsonl'] and not (DATA/j/name).is_file(): raise HTTPException(404)
     path=(DATA/j/name).resolve()
     if path.parent!=(DATA/j).resolve() or not path.is_file(): raise HTTPException(404)
     return FileResponse(path)
+from .modules import jobs as module_jobs
+module_jobs.pool=worker  # serialize optional heavyweight inference with existing analysis jobs
+app.include_router(module_jobs.router)
 app.mount('/',StaticFiles(directory=ROOT/'frontend',html=True),name='frontend')
